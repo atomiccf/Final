@@ -270,7 +270,7 @@ main{
         right: 158px;
         width: 170px;
         height: 201px;
-        background: url("/img/topBlock_spritesheet.png") -201px -5px no-repeat;
+        background: url("../img/topBlock_spritesheet.png") -201px -5px no-repeat;
       }
       .elementThree{
         position: absolute;
@@ -278,7 +278,7 @@ main{
         bottom: -220px;
         width: 209px;
         height: 129px;
-        background: url("/img/topBlock_spritesheet.png") -754px -5px no-repeat;
+        background: url("../img/topBlock_spritesheet.png") -754px -5px no-repeat;
 
 
       }
@@ -557,7 +557,7 @@ main{
       bottom: 993px;
       width: 197px;
       height: 260px;
-      background: url("/img/topBlock_spritesheet.png") -973px -5px no-repeat;
+      background: url("../img/topBlock_spritesheet.png") -973px -5px no-repeat;
   }
     .myStory_mainFlex_item2{
       position:absolute;
@@ -565,7 +565,7 @@ main{
       bottom: 196px;
       width: 197px;
       height: 260px;
-      background: url("/img/topBlock_spritesheet.png") -5px -5px no-repeat;
+      background: url("../img/topBlock_spritesheet.png") -5px -5px no-repeat;
     }
     .myStory_mainFlex_item3{
       position:absolute;
@@ -574,7 +574,7 @@ main{
       bottom: 196px;
       width: 160px;
       height: 196px;
-      background: url("/img/topBlock_spritesheet.png") -584px -5px no-repeat;
+      background: url("../img/topBlock_spritesheet.png") -584px -5px no-repeat;
     }
   }
   .myStory_content{
@@ -732,7 +732,7 @@ main{
         line-height: 160%;
         letter-spacing: 0.02em;
         color: $shark;
-        background: url("/img/Vectorgrenphone.png")no-repeat left ;
+        background: url("../img/Vectorgrenphone.png")no-repeat left ;
       }
     }
 
