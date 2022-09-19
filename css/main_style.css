@@ -185,7 +185,7 @@ main .top_section .flex_wrapper .one .elementOne {
   top: 130px;
   width: 193px;
   height: 201px;
-  background: url("/img/topBlock_spritesheet.png") -381px -5px no-repeat;
+  background: url("../img/topBlock_spritesheet.png") -381px -5px no-repeat;
 }
 main .top_section .flex_wrapper .one ul {
   margin-left: 30px;
