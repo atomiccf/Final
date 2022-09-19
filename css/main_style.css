@@ -67,7 +67,7 @@
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  background: url("/img/Vectorpoint.png") no-repeat left;
+  background: url("../img/Vectorpoint.png") no-repeat left;
 }
 .top_line .container .wrapper .contact_flex a {
   padding-left: 15px;
@@ -77,7 +77,7 @@
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  background: url("/img/Vectorphone.png") no-repeat left;
+  background: url("../img/Vectorphone.png") no-repeat left;
 }
 
 nav {
@@ -112,7 +112,7 @@ nav .container .wrapper ul li {
   color: #262728;
   margin-right: 19px;
   padding-right: 10px;
-  background: url("/img/Rectangle 8.png") no-repeat right;
+  background: url("../img/Rectangle 8.png") no-repeat right;
 }
 nav .container .wrapper ul li:last-child {
   background: none;
@@ -121,7 +121,7 @@ nav .container .wrapper ul li:hover {
   color: #49A069;
 }
 nav .container .wrapper .cart {
-  background: url("/img/cart.png") no-repeat;
+  background: url("../img/cart.png") no-repeat;
   width: 60px;
   height: 54px;
 }

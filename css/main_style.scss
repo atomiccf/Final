@@ -69,7 +69,7 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $white;
-          background: url("/img/Vectorpoint.png")no-repeat left;
+          background: url("../img/Vectorpoint.png")no-repeat left;
 
 
 
@@ -84,7 +84,7 @@
             line-height: 160%;
             letter-spacing: 0.02em;
             color: $white;
-            background: url("/img/Vectorphone.png")no-repeat left;
+            background: url("../img/Vectorphone.png")no-repeat left;
           }
 
       }
@@ -131,7 +131,7 @@ ul {
 
     margin-right: 19px;
       padding-right: 10px;
-      background: url("/img/Rectangle 8.png")no-repeat right;
+      background: url("../img/Rectangle 8.png")no-repeat right;
     &:last-child{
       background: none;
     }
@@ -142,7 +142,7 @@ ul {
   }
 }
 .cart{
-background: url("/img/cart.png") no-repeat;
+background: url("../img/cart.png") no-repeat;
   width: 60px;
   height: 54px;
 
