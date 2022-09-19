@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: local('Gotham Pro Bold'), local('Gotham-Pro-Bold'),
+        url('../fonts/GothamPro-Bold.woff2') format('woff2'),
+        url('../fonts/GothamPro-Bold.woff') format('woff'),
+        url('../fonts/GothamPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
