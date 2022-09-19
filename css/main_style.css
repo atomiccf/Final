@@ -193,7 +193,7 @@ main .top_section .flex_wrapper .one ul {
 main .top_section .flex_wrapper .one ul li {
   margin-top: 25px;
   margin-bottom: 5px;
-  list-style-image: url("/img/check_icon.png");
+  list-style-image: url("../img/check_icon.png");
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
