@@ -1,0 +1,517 @@
+@import "variables.scss";
+@import url(fontStyle_regular.css);
+@import url(fontStyle_bold.css);
+@import url(fontStyle_extrabold.css);
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.siteContent {
+  flex: 1;
+}
+
+
+.top_line {
+  width: 100%;
+  height: 50px;
+  background-color: $deepblue;
+
+  .container {
+    width: $xxl;
+    margin: 0 auto;
+
+    .wrapper {
+      display: flex;
+
+      .social_flex {
+        width: 50%;
+        display: flex;
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+        a {
+
+          width: 19px;
+          height: 17px;
+          margin-right: 20px;
+
+          &:first-child {
+            background: url("../img/social_spritesheet.png")-5px -5px;
+          }
+
+          &:nth-child(2) {
+
+            background: url("../img/social_spritesheet.png")-24px -5px;
+
+          }
+
+          &:nth-child(3) {
+            background: url("../img/social_spritesheet.png")-74px -5px;
+
+          }
+
+          &:nth-child(4) {
+            background: url("../img/social_spritesheet.png")-50px -5px;
+            margin-right: 0;
+          }
+        }
+
+      }
+
+      .contact_flex {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+        address {
+          margin-right: 40px;
+          padding-left: 15px;
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $normal;
+          font-size: 14px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $white;
+          background: url("../img/Vectorpoint.png") no-repeat left;
+
+
+        }
+
+        a {
+          padding-left: 15px;
+          font-style: normal;
+          font-family: $gothamPro;
+          font-weight: $normal;
+          font-size: 14px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $white;
+          background: url("../img/Vectorphone.png") no-repeat left;
+        }
+
+      }
+    }
+
+
+  }
+
+
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 37px;
+  background-color: $white;
+
+  .container {
+    width: $xxl;
+    margin: 0 auto;
+
+    .wrapper {
+      display: flex;
+      margin-top: 37px;
+      justify-content: space-between;
+
+      ul {
+        display: flex;
+        align-items: center;
+
+        li {
+
+
+          display: block;
+          background: url("../img/Rectangle 8.png") no-repeat right;
+
+          a {
+            font-family: $gothamPro;
+            font-style: normal;
+            font-weight: $normal;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0.02em;
+            color: $shark;
+            margin-right: 19px;
+            margin-left: 19px;
+
+
+          }
+
+
+          &:nth-child(3) {
+            a {
+              color: $green;
+              font-family: $gothamPro;
+              font-style: normal;
+              font-weight: $bold;
+
+            }
+
+
+          }
+
+          &:last-child {
+            background: none;
+          }
+
+          &:hover {
+            color: $green;
+          }
+
+        }
+      }
+
+      .cart {
+        background: url("../img/cart.png") no-repeat;
+        width: 60px;
+        height: 54px;
+
+
+      }
+
+      button {
+        width: 170px;
+        height: 50px;
+        background: $green;
+        border: 0;
+        border-radius: 100px;
+        font-style: normal;
+        font-weight: $bold;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $white;
+
+
+      }
+
+    }
+
+  }
+
+
+}
+
+.Restore {
+  .Restore_wrapper {
+    width: 100%;
+    height: auto;
+    background-color: $gray;
+
+  }
+
+  .Restore_container {
+    width: $xxl;
+    margin: 0 auto;
+  }
+
+  .Restore_breadcrumb {
+    display: flex;
+    padding-top: 25px;
+    margin-left: 258px;
+
+    li {
+      font-family: $gothamPro;
+      font-style: normal;
+      font-weight: $normal;
+      font-size: 12px;
+      line-height: 160%;
+      letter-spacing: 0.02em;
+      color: $bombay;
+
+      &:nth-child(2) {
+        color: black;
+
+
+      }
+
+
+    }
+
+
+  }
+
+  .Restore_mainFlex {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 100px;
+
+    h2 {
+      width: 1170px;
+      margin-top: 30px;
+      margin-left: 120px;
+      font-family: $gothamPro;
+      font-style: normal;
+      font-weight: $extrabold;
+      font-size: 40px;
+      line-height: 160%;
+      text-align: left;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: $shark;
+      background: url(../img/Rectangle14.png) no-repeat bottom;
+
+
+    }
+
+  }
+
+  .Restore_itemFlex {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 53px;
+    margin-left: 250px;
+    /*Restore Item*/
+    .Restore_item {
+      margin-right: 30px;
+      width: 270px;
+      height: 349px;
+      background: $white;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+
+      & > p {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $shark;
+
+        span {
+          color: $green;
+
+
+        }
+
+      }
+
+      &:last-child {
+        margin-right: 0;
+        margin-top: 30px;
+        margin-bottom: 100px;
+      }
+
+      &:hover {
+        transition: transform 0.5s;
+        transform: scale(1.2);
+      }
+      img {
+        width: 270px;
+        height: 202px;
+        margin-bottom: 20px;
+
+
+      }
+
+
+    }
+
+
+  }
+}
+
+
+footer {
+  width: 100%;
+  height: 308px;
+  background-color: $deepblue;
+
+
+  .footer_container {
+    width: $xxl;
+    margin: 0 auto;
+
+
+  }
+
+  .footer_mainFlex {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    .footer_copyright {
+      svg {
+        margin-top: 60px;
+        margin-bottom: 110px;
+      }
+
+      p {
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 14px;
+        line-height: 200%;
+        letter-spacing: 0.02em;
+        color: $white;
+        opacity: 0.5;
+      }
+    }
+
+    .footer_menuOne {
+      ul {
+        margin-top: 53px;
+
+        li {
+          &:nth-child(1) {
+            margin-bottom: 11px;
+            font-family: $gothamPro;
+            font-style: normal;
+            font-weight: $extrabold;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: $white;
+            opacity: 0.5;
+
+
+          }
+
+          a {
+            width: 189px;
+            font-family: $gothamPro;
+            font-style: normal;
+            font-weight: $normal;
+            font-size: 14px;
+            line-height: 200%;
+            letter-spacing: 0.02em;
+            color: $white;
+
+          }
+
+        }
+
+      }
+
+
+    }
+
+    .footer_menuTwo {
+      ul {
+        margin-top: 53px;
+
+        li {
+
+
+          &:nth-child(1) {
+            margin-bottom: 11px;
+            font-family: $gothamPro;
+            font-style: normal;
+            font-weight: $extrabold;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: $white;
+            opacity: 0.5;
+
+
+          }
+
+          a {
+
+            font-family: $gothamPro;
+            font-style: normal;
+            font-weight: $normal;
+            font-size: 14px;
+            line-height: 200%;
+            letter-spacing: 0.02em;
+            color: $white;
+
+          }
+
+
+        }
+
+      }
+
+
+    }
+
+    .footer_socialMenu {
+      ul {
+        margin-top: 53px;
+
+        li {
+
+          &:nth-child(1) {
+            margin-bottom: 11px;
+            font-family: $gothamPro;
+            font-style: normal;
+            font-weight: $extrabold;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: $white;
+            opacity: 0.5;
+
+
+          }
+
+          &:nth-child(2) {
+            display: flex;
+
+
+          }
+
+
+        }
+
+        a {
+
+          width: 34px;
+          height: 34px;
+          margin-right: 10px;
+          background-color: $deepblue;
+
+          &:first-child {
+            width: 34px;
+            height: 34px;
+
+          }
+
+          &:nth-child(2) {
+            width: 34px;
+            height: 34px;
+
+
+          }
+
+          &:nth-child(3) {
+            width: 34px;
+            height: 34px;
+
+
+          }
+
+          &:nth-child(4) {
+            width: 34px;
+            height: 34px;
+            margin-right: 0;
+
+          }
+        }
+
+      }
+
+
+    }
+
+
+  }
+
+
+}

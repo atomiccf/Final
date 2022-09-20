@@ -115,23 +115,28 @@ ul {
   align-items: center;
   li{
     display: block;
-    font-family: $gothamPro;
-    font-style: normal;
-    font-weight: $bold;
-    font-size: 16px;
-    line-height: 160%;
-    /* identical to box height, or 26px */
+    background: url("../img/Rectangle 8.png")no-repeat right;
+    a{
 
-    letter-spacing: 0.02em;
+      font-family: $gothamPro;
+      font-style: normal;
+      font-weight: $bold;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0.02em;
+      color: $shark;
+      margin-right: 19px;
+      margin-left: 19px;
 
-    /* Шрифт */
-
-    color: $shark;
 
 
-    margin-right: 19px;
-      padding-right: 10px;
-      background: url("../img/Rectangle 8.png")no-repeat right;
+    }
+    &:first-child{
+      a{
+        color: $green;
+      }
+
+    }
     &:last-child{
       background: none;
     }

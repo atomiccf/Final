@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(fontStyle_regular.css);
 @import url(fontStyle_bold.css);
 @import url(fontStyle_extrabold.css);
@@ -101,18 +100,21 @@ nav .container .wrapper ul {
 }
 nav .container .wrapper ul li {
   display: block;
+  background: url("../img/Rectangle 8.png") no-repeat right;
+}
+nav .container .wrapper ul li a {
   font-family: "Gotham Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 160%;
-  /* identical to box height, or 26px */
   letter-spacing: 0.02em;
-  /* Шрифт */
   color: #262728;
   margin-right: 19px;
-  padding-right: 10px;
-  background: url("../img/Rectangle 8.png") no-repeat right;
+  margin-left: 19px;
+}
+nav .container .wrapper ul li:first-child a {
+  color: #49A069;
 }
 nav .container .wrapper ul li:last-child {
   background: none;
