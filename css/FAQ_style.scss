@@ -104,6 +104,159 @@
 
 }
 
+
+.faq_wrapper {
+  width: 100%;
+  height: auto;
+  background-color: $gray;
+
+}
+
+.faq_container{
+  width: $xxl;
+  margin: 0 auto;
+
+  .faq_breadcrumb {
+    display: flex;
+    padding-top: 25px;
+    margin-left: 258px;
+
+    li {
+      font-family: $gothamPro;
+      font-style: normal;
+      font-weight: $normal;
+      font-size: 12px;
+      line-height: 160%;
+      letter-spacing: 0.02em;
+      color: $bombay;
+
+      &:nth-child(2) {
+        color: black;
+
+
+      }
+
+
+    }
+
+
+  }
+
+  h2 {
+    width: 1170px;
+    margin-top: 30px;
+    margin-left: 255px;
+    font-family: $gothamPro;
+    font-style: normal;
+    font-weight: $extrabold;
+    font-size: 40px;
+    line-height: 160%;
+    text-align: left;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $shark;
+    background: url(../img/Rectangle14.png) no-repeat bottom;
+
+
+  }
+
+
+
+
+}
+
+ul.accordion-list {
+  position: relative;
+  display: block;
+  width: 65%;
+  height: auto;
+  padding: 20px;
+  margin-left: 233px;
+  list-style: none;
+  background-color: #f9f9fA;
+
+  li {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: $white;
+    padding: 20px;
+    margin: 0 auto 15px auto;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &.active {
+      h3 {
+        &:after {
+          transform: rotate(45deg);
+        }
+      }
+    }
+
+    h3 {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      padding: 0 0 0 0;
+      margin: 0;
+       cursor: pointer;
+
+      font-family: $gothamPro;
+      font-style: normal;
+      font-weight: $bold;
+      font-size: 24px;
+      line-height: 160%;
+      letter-spacing: 0.02em;
+      color: $shark;
+
+
+      &:after {
+        content: "\271a";
+        font-family: $gothamPro;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: $black;
+        transition: all 0.3s ease-in-out;
+        font-size: 18px;
+      }
+    }
+
+    div.answer {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+
+      p {
+        position: relative;
+        display: block;
+        padding: 10px 0 0 0;
+        cursor: pointer;
+        margin: 0 0 15px 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $black;
+
+
+      }
+    }
+  }
+}
+
+
+
+
 nav {
   width: 100%;
   height: 50px;
@@ -144,7 +297,7 @@ nav {
           }
 
 
-          &:nth-child(3) {
+          &:nth-child(5) {
             a {
               color: $green;
               font-family: $gothamPro;
@@ -196,131 +349,6 @@ nav {
   }
 
 
-}
-
-.Restore {
-  .Restore_wrapper {
-    width: 100%;
-    height: auto;
-    background-color: $gray;
-
-  }
-
-  .Restore_container {
-    width: $xxl;
-    margin: 0 auto;
-  }
-
-  .Restore_breadcrumb {
-    display: flex;
-    padding-top: 25px;
-    margin-left: 258px;
-
-    li {
-      font-family: $gothamPro;
-      font-style: normal;
-      font-weight: $normal;
-      font-size: 12px;
-      line-height: 160%;
-      letter-spacing: 0.02em;
-      color: $bombay;
-
-      &:nth-child(2) {
-        color: black;
-
-
-      }
-
-
-    }
-
-
-  }
-
-  .Restore_mainFlex {
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    padding-bottom: 100px;
-
-    h2 {
-      width: 1170px;
-      margin-top: 30px;
-      margin-left: 120px;
-      font-family: $gothamPro;
-      font-style: normal;
-      font-weight: $extrabold;
-      font-size: 40px;
-      line-height: 160%;
-      text-align: left;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: $shark;
-      background: url(../img/Rectangle14.png) no-repeat bottom;
-
-
-    }
-
-  }
-
-  .Restore_itemFlex {
-    display: flex;
-    flex-flow: row wrap;
-    margin-top: 53px;
-    margin-left: 250px;
-    /*Restore Item*/
-    .Restore_item {
-      margin-right: 30px;
-      width: 270px;
-      height: 349px;
-      background: $white;
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-
-      & > p {
-        padding-left: 25px;
-        padding-right: 25px;
-        font-family: $gothamPro;
-        font-style: normal;
-        font-weight: $normal;
-        font-size: 16px;
-        line-height: 160%;
-        letter-spacing: 0.02em;
-        color: $shark;
-
-        span {
-          color: $green;
-
-
-        }
-
-      }
-
-      &:last-child {
-        margin-right: 0;
-        margin-top: 30px;
-        margin-bottom: 100px;
-      }
-
-      &:hover {
-        transition: transform 0.5s;
-        transform: scale(1.2);
-      }
-      img {
-        width: 270px;
-        height: 202px;
-        margin-bottom: 20px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-
-      }
-
-
-    }
-
-
-  }
 }
 
 

@@ -236,6 +236,8 @@ nav .container .wrapper button {
   width: 270px;
   height: 202px;
   margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 footer {

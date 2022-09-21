@@ -406,14 +406,18 @@ main{
         background: $green;
         border-radius: 100px;
         border: 0;
-        font-family: $gothamPro;
-        font-style: normal;
-        font-weight: $bold;
-        font-size: 16px;
-        line-height: 160%;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: $white;
+
+        a{
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $bold;
+          font-size: 16px;
+          line-height: 160%;
+          text-align: center;
+          letter-spacing: 0.02em;
+          color: $white;
+        }
+
 
 
       }

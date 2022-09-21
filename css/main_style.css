@@ -332,6 +332,8 @@ main .ourProducts .ourProducts_mainFlex .ourProducts_buttonAll {
   background: #49A069;
   border-radius: 100px;
   border: 0;
+}
+main .ourProducts .ourProducts_mainFlex .ourProducts_buttonAll a {
   font-family: "Gotham Pro", sans-serif;
   font-style: normal;
   font-weight: 700;

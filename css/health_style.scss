@@ -144,7 +144,7 @@ nav {
           }
 
 
-          &:nth-child(3) {
+          &:nth-child(4) {
             a {
               color: $green;
               font-family: $gothamPro;
@@ -198,20 +198,20 @@ nav {
 
 }
 
-.Restore {
-  .Restore_wrapper {
+.Health {
+  .Health_wrapper {
     width: 100%;
     height: auto;
     background-color: $gray;
 
   }
 
-  .Restore_container {
+  .Health_container {
     width: $xxl;
     margin: 0 auto;
   }
 
-  .Restore_breadcrumb {
+  .Health_breadcrumb {
     display: flex;
     padding-top: 25px;
     margin-left: 258px;
@@ -237,7 +237,7 @@ nav {
 
   }
 
-  .Restore_mainFlex {
+  .Health_mainFlex {
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -264,14 +264,15 @@ nav {
 
   }
 
-  .Restore_itemFlex {
+  .Health_itemFlex {
     display: flex;
     flex-flow: row wrap;
     margin-top: 53px;
     margin-left: 250px;
     /*Restore Item*/
-    .Restore_item {
+    .Health_item {
       margin-right: 30px;
+      margin-bottom: 30px;
       width: 270px;
       height: 349px;
       background: $white;
@@ -289,7 +290,7 @@ nav {
         letter-spacing: 0.02em;
         color: $shark;
 
-        span {
+        a {
           color: $green;
 
 
@@ -297,11 +298,7 @@ nav {
 
       }
 
-      &:last-child {
-        margin-right: 0;
-        margin-top: 30px;
-        margin-bottom: 100px;
-      }
+
 
       &:hover {
         transition: transform 0.5s;
@@ -313,7 +310,6 @@ nav {
         margin-bottom: 20px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-
       }
 
 
