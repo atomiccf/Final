@@ -144,7 +144,7 @@ nav {
           }
 
 
-          &:nth-child(6) {
+          &:nth-child(7) {
             a {
               color: $green;
               font-family: $gothamPro;
@@ -198,189 +198,171 @@ nav {
 
 }
 
-.help_wrapper {
-  width: 100%;
-  height: auto;
-  padding: 1px;
-  background-color: $gray;
+.Coaching {
+  .Coaching_wrapper {
+    width: 100%;
+    height: auto;
+    background-color: $gray;
 
-}
+  }
 
-.help_container{
-  width: $xxl;
-  margin: 0 auto;
+  .Coaching_container {
+    width: $xxl;
+    margin: 0 auto;
 
-  .help_breadcrumb {
+    .Coaching_breadcrumb {
+      display: flex;
+      padding-top: 25px;
+      margin-left: 258px;
+
+      li {
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+        &:nth-child(2) {
+          color: black;
+
+
+        }
+
+
+      }
+
+
+    }
+
+  }
+
+
+
+  .Coaching_mainFlex {
+    width: 100%;
     display: flex;
-    padding-top: 25px;
-    margin-left: 258px;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 100px;
 
-    li {
+    h2 {
+      width: 75%;
+      margin-top: 30px;
+      margin-left: 120px;
       font-family: $gothamPro;
       font-style: normal;
-      font-weight: $normal;
-      font-size: 12px;
+      font-weight: $extrabold;
+      font-size: 40px;
       line-height: 160%;
-      letter-spacing: 0.02em;
-      color: $bombay;
-
-      &:nth-child(2) {
-        color: black;
-
-
-      }
+      text-align: left;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: $shark;
+      background: url(../img/Rectangle14.png) no-repeat bottom;
 
 
     }
 
-
   }
 
-  h2 {
-    width: 75%;
-    margin-top: 30px;
-    margin-left: 255px;
-    font-family: $gothamPro;
-    font-style: normal;
-    font-weight: $extrabold;
-    font-size: 40px;
-    line-height: 160%;
-    text-align: left;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: $shark;
-    background: url(../img/Rectangle14.png) no-repeat bottom;
-
-
-  }
-
-
-.help_form{
-  display: flex;
-  flex-flow: column;
-  margin-top: 50px;
-  margin-left: 250px;
-  margin-bottom: 100px;
-  width: 1170px;
-
-  background: $white;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-
-
-
-
-}
-  form{
-    .help_form_flex{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      textarea {
-        box-sizing: border-box;
-        width: 95%;
-        height: 200px;
-
-        background: $athensGray;
-        border: 1px solid $iron;
-        box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-      }
-    }
-
-    textarea {
-      box-sizing: border-box;
-      width: 95%;
-      height: 200px;
-
-      background: $athensGray;
-      border: 1px solid $iron;
-      box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
+  .Coaching_itemFlex {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 53px;
+    margin-left: 141px;
+    /*Restore Item*/
+    .Coaching_item {
+      position: relative;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      width: 270px;
+      height: 388px;
+      background: $white;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+      h3{
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+
+
+
+      }
+      & > p {
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $shark;
+
+        a {
+          color: $green;
+
+
+        }
+
+      }
+
+
+
+      &:hover {
+        transition: transform 0.5s;
+        transform: scale(1.2);
+      }
+      img {
+        width: 270px;
+        height: 202px;
+        margin-bottom: 23px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+
     }
-  }
-
-input[type="text"] {
-  box-sizing: border-box;
-  width: 350px;
-  height: 50px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  background: $athensGray;
-  border: 1px solid $iron;
-  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-
-
-
-  &:nth-child(3){
-
-
-
-
-  }
-}
-
-  #name{
-    background: url("../img/Vector.png") no-repeat 1% 50%;
-    padding-left: 20px;
-    margin-left: 30px;
-  }
- #number{
-   background: url("../img/Vector (1).png") no-repeat 1% 50%;
-   padding-left: 25px;
-   margin-left: 0;
-
-
- }
-  #mail{
-    background: url("../img/Vector (2).png") no-repeat 1% 50%;
-    padding-left: 30px;
-    margin-left: 0;
 
 
   }
 
-
-.help_contact{
-display: flex;
-  margin-top: 30px;
-
-
-}
-
-
-
-
-  input[type="submit"]{
-
-    width: 270px;
-    height: 50px;
-    background: $green;
+  button{
+    position: absolute;
+    right: 25px;
+    box-sizing: border-box;
+     width: 220px;
+    height: 40px;
+    border: 2px solid $green;
     border-radius: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background-color: $white;
     font-family: $gothamPro;
     font-style: normal;
     font-weight: $bold;
     font-size: 16px;
     line-height: 160%;
-    text-align: center;
     letter-spacing: 0.02em;
-    color: $white;
-    border: 0;
+    color: $green;
+    &:nth-child(1){
+      margin-top: 19px;
+    }
 
+    &:nth-child(-n+3){
+      margin-top: 50px;
+    }
 
   }
 
-
-
 }
-
-
-
-
-
 
 
 footer {
