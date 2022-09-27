@@ -202,6 +202,13 @@ nav{
 
 
           }
+
+          &:nth-child(7){
+            background: none;
+
+
+
+          }
           &:last-child{
             background: none;
           }
@@ -211,7 +218,12 @@ nav{
 
         }
       }
+      #menu__toggle{
+        visibility: hidden;
+
+      }
       .cart{
+        margin-top: 15px;
         background: url("../img/cart.png") no-repeat;
         width: 60px;
         height: 54px;
@@ -224,6 +236,7 @@ nav{
         background: $green;
         border: 0;
         border-radius: 100px;
+        font-family: $gothamPro;
         font-style: normal;
         font-weight: $bold;
         font-size: 16px;

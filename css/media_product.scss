@@ -1,0 +1,982 @@
+@import "variables.scss";
+@import "media_layout.scss";
+
+@media screen and (max-width: 1559px){
+
+
+  .ourProducts{
+    .ourProducts_wrapper{
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+    .container{
+      width: $xl;
+      margin: 0 auto;
+    }
+    .ourProducts_breadcrumb{
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+      li{
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+
+        &:nth-child(2){
+          color: black;
+
+
+        }
+
+
+
+      }
+
+
+    }
+    .ourProducts_mainFlex{
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      h2{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom ;
+
+
+
+
+
+      }
+
+    }
+    .ourProducts_itemFlex{
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 0;
+      margin-top: 53px;
+      /*Products Item*/
+      .ourProducts_item{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        width: 270px;
+        height: 380px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+
+        &:last-child{
+          margin-right: 0;
+          margin-top: 0;
+          margin-bottom: 100px;
+        }
+        &:hover{
+          z-index: 1;
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+
+        h3{
+          margin-top: 33px;
+          font-family:$gothamPro;
+          font-style: normal;
+          font-weight: $extrabold;
+          font-size: 16px;
+          line-height: 160%;
+          text-align: center;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: $shark;
+
+          span{
+            color: $green;
+
+
+
+          }
+        }
+        img[alt="glass with milk"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        img[alt="measure glass"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        #clover{
+          position: absolute;
+          bottom: 122px;
+          right: 31px;
+          width: 111px;
+          height: 100px;
+        }
+        #orchid{
+          position: absolute;
+          bottom: 133px;
+          right: 15px;
+          width: 111px;
+          height: 77px;
+        }
+        #chia{
+          position: absolute;
+          bottom: 133px;
+          right: 10px;
+          width: 100px;
+          height: 51px;
+        }
+        #seeds{
+          position: absolute;
+          bottom: 133px;
+          right: 21px;
+          width: 93px;
+          height: 44px;
+        }
+        button{
+          position: absolute;
+          bottom: 47px;
+          right: 25px;
+          width: 220px;
+          height: 40px;
+          border: 1px solid $green;
+          border-radius: 100px;
+          background: $white;
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $bold;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $green;
+
+        }
+
+      }
+
+
+    }
+  }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1199px){
+
+
+  .ourProducts{
+    .ourProducts_wrapper{
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+    .container{
+      width: $l;
+      margin: 0 auto;
+    }
+    .ourProducts_breadcrumb{
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+      li{
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+
+        &:nth-child(2){
+          color: black;
+
+
+        }
+
+
+
+      }
+
+
+    }
+    .ourProducts_mainFlex{
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      h2{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom ;
+
+
+
+
+
+      }
+
+    }
+    .ourProducts_itemFlex{
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 0;
+      margin-top: 53px;
+      /*Products Item*/
+      .ourProducts_item{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        width: 270px;
+        height: 380px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+
+        &:last-child{
+          margin-right: 0;
+          margin-top: 0;
+          margin-bottom: 100px;
+        }
+        &:hover{
+          z-index: 1;
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+
+        h3{
+          margin-top: 33px;
+          font-family:$gothamPro;
+          font-style: normal;
+          font-weight: $extrabold;
+          font-size: 16px;
+          line-height: 160%;
+          text-align: center;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: $shark;
+
+          span{
+            color: $green;
+
+
+
+          }
+        }
+        img[alt="glass with milk"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        img[alt="measure glass"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        #clover{
+          position: absolute;
+          bottom: 122px;
+          right: 31px;
+          width: 111px;
+          height: 100px;
+        }
+        #orchid{
+          position: absolute;
+          bottom: 133px;
+          right: 15px;
+          width: 111px;
+          height: 77px;
+        }
+        #chia{
+          position: absolute;
+          bottom: 133px;
+          right: 10px;
+          width: 100px;
+          height: 51px;
+        }
+        #seeds{
+          position: absolute;
+          bottom: 133px;
+          right: 21px;
+          width: 93px;
+          height: 44px;
+        }
+        button{
+          position: absolute;
+          bottom: 47px;
+          right: 25px;
+          width: 220px;
+          height: 40px;
+          border: 1px solid $green;
+          border-radius: 100px;
+          background: $white;
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $bold;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $green;
+
+        }
+
+      }
+
+
+    }
+  }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 991px){
+
+
+  .ourProducts{
+    .ourProducts_wrapper{
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+    .container{
+      width: $md;
+      margin: 0 auto;
+    }
+    .ourProducts_breadcrumb{
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+      li{
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+
+        &:nth-child(2){
+          color: black;
+
+
+        }
+
+
+
+      }
+
+
+    }
+    .ourProducts_mainFlex{
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      h2{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom ;
+
+
+
+
+
+      }
+
+    }
+    .ourProducts_itemFlex{
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 0;
+      margin-top: 53px;
+      /*Products Item*/
+      .ourProducts_item{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        width: 270px;
+        height: 380px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+
+        &:last-child{
+          margin-right: 0;
+          margin-top: 0;
+          margin-bottom: 100px;
+        }
+        &:hover{
+          z-index: 1;
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+
+        h3{
+          margin-top: 33px;
+          font-family:$gothamPro;
+          font-style: normal;
+          font-weight: $extrabold;
+          font-size: 16px;
+          line-height: 160%;
+          text-align: center;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: $shark;
+
+          span{
+            color: $green;
+
+
+
+          }
+        }
+        img[alt="glass with milk"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        img[alt="measure glass"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        #clover{
+          position: absolute;
+          bottom: 122px;
+          right: 31px;
+          width: 111px;
+          height: 100px;
+        }
+        #orchid{
+          position: absolute;
+          bottom: 133px;
+          right: 15px;
+          width: 111px;
+          height: 77px;
+        }
+        #chia{
+          position: absolute;
+          bottom: 133px;
+          right: 10px;
+          width: 100px;
+          height: 51px;
+        }
+        #seeds{
+          position: absolute;
+          bottom: 133px;
+          right: 21px;
+          width: 93px;
+          height: 44px;
+        }
+        button{
+          position: absolute;
+          bottom: 47px;
+          right: 25px;
+          width: 220px;
+          height: 40px;
+          border: 1px solid $green;
+          border-radius: 100px;
+          background: $white;
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $bold;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $green;
+
+        }
+
+      }
+
+
+    }
+  }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+
+  .ourProducts{
+    .ourProducts_wrapper{
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+    .container{
+      width: $sm;
+      margin: 0 auto;
+    }
+    .ourProducts_breadcrumb{
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+      li{
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+
+        &:nth-child(2){
+          color: black;
+
+
+        }
+
+
+
+      }
+
+
+    }
+    .ourProducts_mainFlex{
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      h2{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom ;
+
+
+
+
+
+      }
+
+    }
+    .ourProducts_itemFlex{
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 0;
+      margin-top: 53px;
+      /*Products Item*/
+      .ourProducts_item{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        width: 270px;
+        height: 380px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+
+        &:last-child{
+          margin-right: 0;
+          margin-top: 0;
+          margin-bottom: 100px;
+        }
+        &:hover{
+          z-index: 1;
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+
+        h3{
+          margin-top: 33px;
+          font-family:$gothamPro;
+          font-style: normal;
+          font-weight: $extrabold;
+          font-size: 16px;
+          line-height: 160%;
+          text-align: center;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: $shark;
+
+          span{
+            color: $green;
+
+
+
+          }
+        }
+        img[alt="glass with milk"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        img[alt="measure glass"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        #clover{
+          position: absolute;
+          bottom: 122px;
+          right: 31px;
+          width: 111px;
+          height: 100px;
+        }
+        #orchid{
+          position: absolute;
+          bottom: 133px;
+          right: 15px;
+          width: 111px;
+          height: 77px;
+        }
+        #chia{
+          position: absolute;
+          bottom: 133px;
+          right: 10px;
+          width: 100px;
+          height: 51px;
+        }
+        #seeds{
+          position: absolute;
+          bottom: 133px;
+          right: 21px;
+          width: 93px;
+          height: 44px;
+        }
+        button{
+          position: absolute;
+          bottom: 47px;
+          right: 25px;
+          width: 220px;
+          height: 40px;
+          border: 1px solid $green;
+          border-radius: 100px;
+          background: $white;
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $bold;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $green;
+
+        }
+
+      }
+
+
+    }
+  }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 575px){
+
+
+  .ourProducts{
+    .ourProducts_wrapper{
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+    .container{
+      width: $exs;
+      margin: 0 auto;
+    }
+    .ourProducts_breadcrumb{
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+      li{
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+
+        &:nth-child(2){
+          color: black;
+
+
+        }
+
+
+
+      }
+
+
+    }
+    .ourProducts_mainFlex{
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      h2{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom ;
+
+
+
+
+
+      }
+
+    }
+    .ourProducts_itemFlex{
+      display: flex;
+      flex-flow: row wrap;
+      margin-left: 0;
+      margin-top: 53px;
+      /*Products Item*/
+      .ourProducts_item{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        width: 270px;
+        height: 380px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+
+        &:last-child{
+          margin-right: 0;
+          margin-top: 0;
+          margin-bottom: 100px;
+        }
+        &:hover{
+          z-index: 1;
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+
+        h3{
+          margin-top: 33px;
+          font-family:$gothamPro;
+          font-style: normal;
+          font-weight: $extrabold;
+          font-size: 16px;
+          line-height: 160%;
+          text-align: center;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: $shark;
+
+          span{
+            color: $green;
+
+
+
+          }
+        }
+        img[alt="glass with milk"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        img[alt="measure glass"]{
+          position: absolute;
+          bottom: 110px;
+          right: 68px;
+          width: 137px;
+          height: 170px;
+          z-index: 1;
+
+        }
+        #clover{
+          position: absolute;
+          bottom: 122px;
+          right: 31px;
+          width: 111px;
+          height: 100px;
+        }
+        #orchid{
+          position: absolute;
+          bottom: 133px;
+          right: 15px;
+          width: 111px;
+          height: 77px;
+        }
+        #chia{
+          position: absolute;
+          bottom: 133px;
+          right: 10px;
+          width: 100px;
+          height: 51px;
+        }
+        #seeds{
+          position: absolute;
+          bottom: 133px;
+          right: 21px;
+          width: 93px;
+          height: 44px;
+        }
+        button{
+          position: absolute;
+          bottom: 47px;
+          right: 25px;
+          width: 220px;
+          height: 40px;
+          border: 1px solid $green;
+          border-radius: 100px;
+          background: $white;
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $bold;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $green;
+
+        }
+
+      }
+
+
+    }
+  }
+
+
+
+
+
+
+}

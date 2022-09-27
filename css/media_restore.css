@@ -115,9 +115,6 @@
     margin-right: 0;
     margin-left: 0;
   }
-  nav .container .wrapper ul li:first-child a {
-    color: #49A069;
-  }
   nav .container .wrapper ul li:last-child {
     background: none;
   }
@@ -380,9 +377,6 @@
     text-align: center;
     white-space: pre-wrap;
   }
-  nav .container .wrapper ul li:first-child a {
-    color: #49A069;
-  }
   nav .container .wrapper ul li:last-child {
     background: none;
   }
@@ -641,9 +635,6 @@
     color: #262728;
     text-align: center;
     white-space: pre-wrap;
-  }
-  nav .container .wrapper ul li:first-child a {
-    color: #49A069;
   }
   nav .container .wrapper ul li:nth-child(8) {
     margin-top: 10px;
@@ -977,9 +968,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     text-align: center;
     white-space: pre-wrap;
   }
-  nav .container .wrapper ul li:first-child a {
-    color: #49A069;
-  }
   nav .container .wrapper ul li:nth-child(7) {
     margin-top: 0;
     background: #FFFFFF;
@@ -1309,9 +1297,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     color: #262728;
     text-align: center;
     white-space: pre-wrap;
-  }
-  nav .container .wrapper ul li:first-child a {
-    color: #49A069;
   }
   nav .container .wrapper ul li:nth-child(7) {
     margin-top: 0;
