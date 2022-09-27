@@ -131,6 +131,9 @@ nav {
   margin-bottom: 37px;
   background-color: #FFFFFF;
 }
+nav input {
+  opacity: 0;
+}
 nav .container {
   width: 1560px;
   margin: 0 auto;
@@ -147,6 +150,14 @@ nav .container .wrapper ul {
 nav .container .wrapper ul li {
   display: block;
   background: url("../img/Rectangle 8.png") no-repeat right;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+nav .container .wrapper ul li:nth-child(7) {
+  background: none;
+}
+nav .container .wrapper ul li:nth-child(8) {
+  background: none;
 }
 nav .container .wrapper ul li a {
   font-family: "Gotham Pro", sans-serif;
@@ -156,8 +167,6 @@ nav .container .wrapper ul li a {
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #262728;
-  margin-right: 19px;
-  margin-left: 19px;
 }
 nav .container .wrapper ul li:first-child a {
   color: #49A069;
@@ -170,6 +179,7 @@ nav .container .wrapper ul li:hover {
 }
 nav .container .wrapper .cart {
   background: url("../img/cart.png") no-repeat;
+  margin-top: 12px;
   width: 60px;
   height: 54px;
 }
@@ -187,6 +197,7 @@ nav .container .wrapper button {
   color: #FFFFFF;
 }
 nav .container .wrapper button:hover {
+  cursor: pointer;
   animation: shake 0.5s ease-in-out;
 }
 
@@ -201,7 +212,7 @@ main {
 main .top_section .wrapper {
   width: 100%;
   height: 572px;
-  background: linear-gradient(329deg, #2B3966 15%, #49A069 15%, #49A069 88%, #2B3966 15%);
+  background: linear-gradient(329deg, #2B3966 15%, #49A069 15%, #49A069 86%, #2B3966 15%);
 }
 main .top_section .container {
   width: 1560px;
@@ -251,6 +262,30 @@ main .top_section .flex_wrapper .one ul li {
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+}
+main .top_section .flex_wrapper .one ul li:last-child {
+  list-style-image: none;
+}
+main .top_section .flex_wrapper .one ul li:last-child button {
+  position: absolute;
+  left: 0;
+  width: 270px;
+  height: 60px;
+  background: #FFFFFF;
+  border: 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  font-family: "Gotham Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #262728;
+}
+main .top_section .flex_wrapper .one ul li:last-child button:hover {
+  cursor: pointer;
+  animation: shake 0.5s ease-in-out;
 }
 main .top_section .flex_wrapper .two {
   width: 50%;
@@ -360,7 +395,7 @@ main .ourProducts .ourProducts_mainFlex {
   align-items: center;
 }
 main .ourProducts .ourProducts_mainFlex h2 {
-  width: 1170px;
+  width: 100%;
   margin-top: 85px;
   font-family: "Gotham Pro", sans-serif;
   font-style: normal;
@@ -373,7 +408,7 @@ main .ourProducts .ourProducts_mainFlex h2 {
   color: #262728;
   background: url(../img/border_gray.png) no-repeat bottom;
 }
-main .ourProducts .ourProducts_mainFlex .ourProducts_buttonAll {
+main .ourProducts .ourProducts_mainFlex form .ourProducts_buttonAll {
   margin-top: 50px;
   margin-bottom: 100px;
   width: 270px;
@@ -381,8 +416,6 @@ main .ourProducts .ourProducts_mainFlex .ourProducts_buttonAll {
   background: #49A069;
   border-radius: 100px;
   border: 0;
-}
-main .ourProducts .ourProducts_mainFlex .ourProducts_buttonAll a {
   font-family: "Gotham Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -391,6 +424,10 @@ main .ourProducts .ourProducts_mainFlex .ourProducts_buttonAll a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+}
+main .ourProducts .ourProducts_mainFlex form .ourProducts_buttonAll:hover {
+  cursor: pointer;
+  animation: shake 0.5s ease-in-out;
 }
 main .ourProducts .ourProducts_itemFlex {
   display: flex;
@@ -499,7 +536,7 @@ main .myStory .myStory_wrapper .container .myStory_mainFlex {
   position: relative;
 }
 main .myStory .myStory_wrapper .container .myStory_mainFlex h2 {
-  width: 1170px;
+  width: 100%;
   margin-top: 85px;
   margin-bottom: 53px;
   font-style: normal;
@@ -514,15 +551,15 @@ main .myStory .myStory_wrapper .container .myStory_mainFlex h2 {
 }
 main .myStory .myStory_wrapper .container .myStory_mainFlex .myStory_mainFlex_item1 {
   position: absolute;
-  left: 0;
-  bottom: 993px;
+  left: 23px;
+  bottom: 970px;
   width: 197px;
   height: 260px;
   background: url("../img/topBlock_spritesheet.png") -973px -5px no-repeat;
 }
 main .myStory .myStory_wrapper .container .myStory_mainFlex .myStory_mainFlex_item2 {
   position: absolute;
-  left: 0;
+  left: 30px;
   bottom: 196px;
   width: 197px;
   height: 260px;
@@ -530,7 +567,7 @@ main .myStory .myStory_wrapper .container .myStory_mainFlex .myStory_mainFlex_it
 }
 main .myStory .myStory_wrapper .container .myStory_mainFlex .myStory_mainFlex_item3 {
   position: absolute;
-  left: 1360px;
+  left: 1366px;
   top: 518px;
   bottom: 196px;
   width: 160px;
@@ -590,6 +627,10 @@ main .myStory .myStory_wrapper .container .myStory_content button {
   letter-spacing: 0.02em;
   color: #49A069;
 }
+main .myStory .myStory_wrapper .container .myStory_content button:hover {
+  cursor: pointer;
+  animation: shake 0.5s ease-in-out;
+}
 main .ourFarm {
   margin-top: 85px;
 }
@@ -604,12 +645,12 @@ main .ourFarm .container .ourFarm_flexWrapper {
   align-items: center;
 }
 main .ourFarm .container .ourFarm_flexWrapper .sliderWrapp {
-  width: 50%;
+  width: 42%;
   margin-top: 54px;
   margin-bottom: 100px;
 }
 main .ourFarm .container h2 {
-  width: 1170px;
+  width: 100%;
   font-family: "Gotham Pro", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -629,7 +670,7 @@ main .ourFarm .container .ourFarmMap img {
 }
 main .ourFarm .container .ourFarmContact {
   position: absolute;
-  top: 894px;
+  top: 805px;
   right: 920px;
   width: 370px;
   height: 200px;
@@ -700,7 +741,7 @@ footer .footer_container {
 footer .footer_mainFlex {
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 footer .footer_mainFlex .footer_copyright svg {
   margin-top: 60px;

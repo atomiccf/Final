@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/mediaMain_style.css">
 
-    <title>OksyG MainPage</title>
+    <title>OksyG</title>
 </head>
 <body>
 
@@ -22,8 +23,8 @@
                     <a href="https://www.tiktok.com/" target="_blank"></a>
                 </div>
                 <div class="contact_flex">
-                    <address>92 Street St, New Yoark, NY 10013</address>
-                    <a href="tel:+1 800 235 958 556">+1 800 235 958 556</a>
+                    <address>92 Street St, New York, NY 10013</address>
+                    <a href="tel:+1800235958556">+1 800 235 958 556</a>
                 </div>
 
             </div>
@@ -34,7 +35,6 @@
     </div>
     <nav>
         <div class="container">
-
             <div class="wrapper">
                 <a href="index.html">
                     <svg width="225" height="60" viewBox="0 0 225 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +75,12 @@
                               fill="#49A069"/>
                     </svg>
                 </a>  <!--logo svg-->
-                <ul>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                <ul class="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products/index.html" target="_blank">Products</a></li>
                     <li><a href="restore/index.html" target="_blank">Restore Your Microbiome</a></li>
@@ -83,9 +88,12 @@
                     <li><a href="FAQ/index.html" target="_blank">FAQ</a></li>
                     <li><a href="Help/index.html" target="_blank">Help and Support</a></li>
                     <li><a href="coaching/index.html" target="_blank">Consulting/Coaching</a></li>
+                    <li><button>Call back</button></li>
                 </ul>
+                    </div>
                 <div class="cart"></div>
-                <button>Call back</button>
+
+
             </div>
 
         </div>
@@ -104,6 +112,9 @@
                             <li>Boosts immunity</li>
                             <li>Improves stomach function</li>
                             <li>Restores intestinal microflora</li>
+                            <li>
+                                <form action="products/index.html"><button
+                                >Go catalog</button></form></li>
                         </ul>
                         <div class="elementOne"></div>
                     </div>
@@ -127,7 +138,7 @@
         <div class="container">
             <h2>OUR Mission</h2>
             <div class="flex_wrapper">
-                <img src="img/img_family.jpg" alt="family_image">
+                <img src="img/img_family.jpg" alt="family_image" id="family">
                 <div class="contentHolder">
                     <span class="contentHolder_span"><img src="img/img_quotes.png" alt="quote">Your health starts in your gut</span>
                     <p class="contentHolder_p">We truly believe that GOAT Milk Kefir can help in healing and restoring
@@ -175,7 +186,7 @@
                         </div>
 
                     </div>
-                    <button class="ourProducts_buttonAll"><a href="products/index.html">All products</a></button>
+                    <form action="products/index.html"><button class="ourProducts_buttonAll" >All products</button></form>
                 </div>
 
 
@@ -212,7 +223,7 @@
                             avoided eating my “trigger” foods, as soon as I consumed even a little – my rosacea would come right
                             back. In full force and blooming. I never had a full remission. This treatment was not sustainable
                             for me, and I kept searching for a solution…</p>
-                        <button>Read more</button>
+                        <form action="healthIssues/index.html"><button>Read more</button></form>
                     </div>
 
 
@@ -245,8 +256,8 @@
 
                <div class="ourFarmMap"><img src="img/map_img.png" alt="farm location on map">
                <div class="ourFarmContact">
-                   <address>92 Street St, New Yoark, <br> NY 10013</address>
-                   <a href="tel:+1 800 235 958 556">+1 800 235 958 556</a>
+                   <address>92 Street St, New York, <br> NY 10013</address>
+                   <a href="tel:+1800235958556">+1 800 235 958 556</a>
 
 
                </div>
@@ -288,27 +299,27 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M41.6601 12.5412L34.7104 15.938L41.6601 9.46729L48.611 15.938L41.6601 12.5412Z" fill="white"/>
                         <path d="M44.2054 20.262L41.6606 16.1924L39.1158 20.262L41.6606 24.3317L44.2054 20.262Z" fill="white"/>
                     </svg>
-                    <p>&copy Oksy-G, 2021</p>
+                    <p>&copy; Oksy-G, 2021</p>
                 </div>
                 <div class="footer_menuOne">
                     <ul>
                         <li>Menu</li>
                         <li><a href="products/index.html" target="_blank">Products</a></li>
-                        <li><a href="restore/index.html">Restore Your Microbiome</a></li>
-                        <li><a href="healthIssues/index.html"> Health Issues</a></li>
-                        <li><a href="FAQ/index.html"> FAQ</a></li>
-                        <li><a href="Help/index.html">Help and Support</a></li>
-                        <li><a href="coaching/index.html">Consulting/Coaching</a></li>
+                        <li><a href="restore/index.html" target="_blank">Restore Your Microbiome</a></li>
+                        <li><a href="healthIssues/index.html" target="_blank"> Health Issues</a></li>
+                        <li><a href="FAQ/index.html" target="_blank"> FAQ</a></li>
+                        <li><a href="Help/index.html" target="_blank">Help and Support</a></li>
+                        <li><a href="coaching/index.html" target="_blank">Consulting/Coaching</a></li>
                     </ul>
                 </div>
                 <div class="footer_menuTwo">
                     <ul>
                         <li>Products</li>
-                        <li><a href="">Goat Milk Kefir – Plain</a></li>
-                        <li><a href="">Goat Milk Kefir – Vanilla</a></li>
-                        <li><a href="">Goat Kefi-Meal – Chia seeds</a></li>
-                        <li><a href="">Goat Kefi- Meal – Flax seeds</a></li>
-                        <li><a href="">Oksy-G measure glass</a></li>
+                        <li><a href="products/Kefir_item1/index.html" target="_blank">Goat Milk Kefir – Plain</a></li>
+                        <li><a href="products/Kefir_item1/index.html" target="_blank">Goat Milk Kefir – Vanilla</a></li>
+                        <li><a href="products/Kefir_item1/index.html" target="_blank">Goat Kefi-Meal – Chia seeds</a></li>
+                        <li><a href="products/Kefir_item1/index.html" target="_blank">Goat Kefi- Meal – Flax seeds</a></li>
+                        <li><a href="products/Kefir_item1/index.html" target="_blank">Oksy-G measure glass</a></li>
                     </ul>
 
 

@@ -2,6 +2,7 @@
 @import url(fontStyle_regular.css);
 @import url(fontStyle_bold.css);
 @import url(fontStyle_extrabold.css);
+
 @keyframes shake {
   0% {
     -webkit-transform: translate(2px, 1px) rotate(0deg);
@@ -110,7 +111,7 @@
         address{
           margin-right: 40px;
           padding-left: 15px;
-          font-family: 'Gotham Pro', sans-serif;
+          font-family: $gothamPro;
           font-style: normal;
           font-weight: $normal;
           font-size: 14px;
@@ -150,6 +151,9 @@ width: 100%;
   height: 50px;
   margin-bottom: 37px;
   background-color:$white;
+  input{
+    opacity: 0;
+  }
 .container{
   width: $xxl;
   margin: 0 auto;
@@ -158,12 +162,22 @@ width: 100%;
 display: flex;
   margin-top: 37px;
   justify-content: space-between;
+
+  
 ul {
   display: flex;
   align-items: center;
   li{
     display: block;
     background: url("../img/Rectangle 8.png")no-repeat right;
+    padding-right: 13px;
+    padding-left: 13px;
+     &:nth-child(7) {
+       background: none;
+     }
+    &:nth-child(8) {
+      background: none;
+    }
     a{
 
       font-family: $gothamPro;
@@ -173,8 +187,7 @@ ul {
       line-height: 160%;
       letter-spacing: 0.02em;
       color: $shark;
-      margin-right: 19px;
-      margin-left: 19px;
+
 
 
 
@@ -196,6 +209,7 @@ ul {
 }
 .cart{
 background: url("../img/cart.png") no-repeat;
+  margin-top: 12px;
   width: 60px;
   height: 54px;
 
@@ -215,6 +229,7 @@ background: url("../img/cart.png") no-repeat;
     letter-spacing: 0.02em;
     color: $white;
     &:hover{
+      cursor: pointer;
       animation: shake 0.5s ease-in-out ;
     }
 
@@ -236,7 +251,7 @@ main{
     .wrapper{
       width: 100%;
       height: 572px;
-       background: linear-gradient(329deg ,#2B3966 15%, #49A069 15%, #49A069 88%, #2B3966 15%)
+       background: linear-gradient(329deg ,#2B3966 15%, #49A069 15%, #49A069 86%, #2B3966 15%)
 
 
     }
@@ -288,7 +303,41 @@ main{
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $white;
+          &:last-child{
+            list-style-image:none;
+
+            button{
+              position: absolute;
+              left: 0;
+              width: 270px;
+              height: 60px;
+              background: $white;
+              border: 0;
+              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+              border-radius: 100px;
+              font-family: $gothamPro;
+              font-style: normal;
+              font-weight: $bold;
+              font-size: 16px;
+              line-height: 160%;
+             letter-spacing: 0.02em;
+              color: $shark;
+                &:hover{
+                cursor: pointer;
+                animation: shake 0.5s ease-in-out ;
+                }
+
+
+            }
+
+
+          }
+
+
+
+
         }
+
 
 
 
@@ -304,7 +353,7 @@ main{
       margin-right: auto;
       img:nth-child(2){
         position: absolute;
-        right: 423px;
+        right:423px;
         z-index: 1;
       }
       img:nth-child(1){
@@ -430,7 +479,7 @@ main{
       align-items: center;
 
       h2{
-        width: 1170px;
+        width: 100%;
         margin-top: 85px;
         font-family: $gothamPro;
         font-style: normal;
@@ -448,16 +497,16 @@ main{
 
 
       }
-      .ourProducts_buttonAll{
-        margin-top: 50px;
-        margin-bottom: 100px;
-        width: 270px;
-        height: 50px;
-        background: $green;
-        border-radius: 100px;
-        border: 0;
+      form{
 
-        a{
+        .ourProducts_buttonAll{
+          margin-top: 50px;
+          margin-bottom: 100px;
+          width: 270px;
+          height: 50px;
+          background: $green;
+          border-radius: 100px;
+          border: 0;
           font-family: $gothamPro;
           font-style: normal;
           font-weight: $bold;
@@ -466,11 +515,15 @@ main{
           text-align: center;
           letter-spacing: 0.02em;
           color: $white;
+          &:hover{
+            cursor: pointer;
+            animation: shake 0.5s ease-in-out ;
+          }
+
         }
 
-
-
       }
+
     }
     .ourProducts_itemFlex{
       display: flex;
@@ -594,7 +647,7 @@ main{
 
 
     h2{
-      width: 1170px;
+      width: 100%;
       margin-top: 85px;
       margin-bottom: 53px;
       font-style: normal;
@@ -612,15 +665,15 @@ main{
 
     .myStory_mainFlex_item1{
       position:absolute;
-      left: 0;
-      bottom: 993px;
+      left: 23px;
+      bottom: 970px;
       width: 197px;
       height: 260px;
       background: url("../img/topBlock_spritesheet.png") -973px -5px no-repeat;
   }
     .myStory_mainFlex_item2{
       position:absolute;
-      left: 0;
+      left: 30px;
       bottom: 196px;
       width: 197px;
       height: 260px;
@@ -628,7 +681,7 @@ main{
     }
     .myStory_mainFlex_item3{
       position:absolute;
-      left: 1360px;
+      left: 1366px;
       top: 518px;
       bottom: 196px;
       width: 160px;
@@ -691,6 +744,14 @@ main{
       text-align: center;
       letter-spacing: 0.02em;
       color: $green;
+      &:hover{
+      cursor: pointer;
+        animation: shake 0.5s ease-in-out ;
+
+
+      }
+
+
 
     }
   }
@@ -718,7 +779,7 @@ main{
   flex-flow: column;
     align-items: center;
     .sliderWrapp{
-      width: 50%;
+      width: 42%;
       margin-top: 54px;
       margin-bottom: 100px;
 
@@ -727,7 +788,7 @@ main{
   }
 
     h2{
-      width: 1170px;
+      width: 100%;
       font-family: $gothamPro;
       font-style: normal;
       font-weight: $extrabold;
@@ -752,7 +813,7 @@ main{
     }
     .ourFarmContact{
       position: absolute;
-      top: 894px;
+      top: 805px;
       right: 920px;
       width: 370px;
       height: 200px;
@@ -852,7 +913,7 @@ footer{
   .footer_mainFlex {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     .footer_copyright{
       svg{
         margin-top: 60px;
@@ -865,7 +926,7 @@ footer{
         font-size: 14px;
         line-height: 200%;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: $white;
         opacity: 0.5;
       }
     }

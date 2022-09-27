@@ -1,0 +1,710 @@
+@import "variables.scss";
+@import "media_layout.scss";
+@media screen and (max-width: 1559px){
+  .Restore {
+    .Restore_wrapper {
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+
+    .Restore_container {
+      width: $xl;
+      margin: 0 auto;
+    }
+
+    .Restore_breadcrumb {
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+
+      li {
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+        &:nth-child(2) {
+          color: black;
+
+
+        }
+
+
+      }
+
+
+    }
+
+    .Restore_mainFlex {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      padding-bottom: 100px;
+
+      h2 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom;
+
+
+      }
+
+    }
+
+    .Restore_itemFlex {
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 53px;
+      margin-left: 0;
+      /*Restore Item*/
+      .Restore_item {
+        margin-right: 30px;
+        width: 270px;
+        height: 349px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+        &:nth-child(4){
+          margin-top: 30px;
+
+
+        }
+
+        & > p {
+          padding-left: 25px;
+          padding-right: 25px;
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $normal;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+
+          span {
+            color: $green;
+
+
+          }
+
+        }
+
+        &:last-child {
+          margin-right: 0;
+          margin-top: 30px;
+          margin-bottom: 100px;
+        }
+
+        &:hover {
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+        img {
+          width: 270px;
+          height: 202px;
+          margin-bottom: 20px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+
+        }
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+}
+@media screen and (max-width: 1199px){
+
+  .Restore {
+    .Restore_wrapper {
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+
+    .Restore_container {
+      width: $l;
+      margin: 0 auto;
+    }
+
+    .Restore_breadcrumb {
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+
+      li {
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+        &:nth-child(2) {
+          color: black;
+
+
+        }
+
+
+      }
+
+
+    }
+
+    .Restore_mainFlex {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      padding-bottom: 100px;
+
+      h2 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom;
+
+
+      }
+
+    }
+
+    .Restore_itemFlex {
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 53px;
+      margin-left: 0;
+      /*Restore Item*/
+      .Restore_item {
+        margin-right: 30px;
+        width: 270px;
+        height: 349px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+
+        &:nth-child(4){
+          margin-top: 30px;
+
+
+        }
+
+        & > p {
+          padding-left: 25px;
+          padding-right: 25px;
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $normal;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+
+          span {
+            color: $green;
+
+
+          }
+
+        }
+
+        &:last-child {
+          margin-right: 0;
+          margin-top: 30px;
+          margin-bottom: 100px;
+        }
+
+        &:hover {
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+        img {
+          width: 270px;
+          height: 202px;
+          margin-bottom: 20px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+
+        }
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+}
+@media screen and (max-width: 991px){
+
+  .Restore {
+    .Restore_wrapper {
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+
+    .Restore_container {
+      width: $md;
+      margin: 0 auto;
+    }
+
+    .Restore_breadcrumb {
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+
+      li {
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+        &:nth-child(2) {
+          color: black;
+
+
+        }
+
+
+      }
+
+
+    }
+
+    .Restore_mainFlex {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      padding-bottom: 100px;
+
+      h2 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom;
+
+
+      }
+
+    }
+
+    .Restore_itemFlex {
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 53px;
+      margin-left: 0;
+      /*Restore Item*/
+      .Restore_item {
+        margin-right: 30px;
+        width: 270px;
+        height: 349px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        &:nth-child(3){
+          margin-top: 30px;
+
+
+        }
+        &:nth-child(4){
+          margin-top: 30px;
+
+
+        }
+
+        & > p {
+          padding-left: 25px;
+          padding-right: 25px;
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $normal;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+
+          span {
+            color: $green;
+
+
+          }
+
+        }
+
+        &:last-child {
+          margin-right: 0;
+          margin-top: 30px;
+          margin-bottom: 100px;
+        }
+
+        &:hover {
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+        img {
+          width: 270px;
+          height: 202px;
+          margin-bottom: 20px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+
+        }
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 767px){
+
+  .Restore {
+    .Restore_wrapper {
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+
+    .Restore_container {
+      width: $sm;
+      margin: 0 auto;
+    }
+
+    .Restore_breadcrumb {
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+
+      li {
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+        &:nth-child(2) {
+          color: black;
+
+
+        }
+
+
+      }
+
+
+    }
+
+    .Restore_mainFlex {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      padding-bottom: 100px;
+
+      h2 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom;
+
+
+      }
+
+    }
+
+    .Restore_itemFlex {
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 53px;
+      margin-left: 0;
+      /*Restore Item*/
+      .Restore_item {
+        margin-right: 30px;
+        width: 270px;
+        height: 349px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        &:nth-child(2){
+          margin-top: 30px;
+
+
+        }
+        &:nth-child(3){
+          margin-top: 30px;
+
+
+        }
+        &:nth-child(4){
+          margin-top: 30px;
+
+
+        }
+
+        & > p {
+          padding-left: 25px;
+          padding-right: 25px;
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $normal;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+
+          span {
+            color: $green;
+
+
+          }
+
+        }
+
+        &:last-child {
+          margin-right: 0;
+          margin-top: 30px;
+          margin-bottom: 100px;
+        }
+
+        &:hover {
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+        img {
+          width: 270px;
+          height: 202px;
+          margin-bottom: 20px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+
+        }
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 575px){
+
+  .Restore {
+    .Restore_wrapper {
+      width: 100%;
+      height: auto;
+      background-color: $gray;
+
+    }
+
+    .Restore_container {
+      width: $exs;
+      margin: 0 auto;
+    }
+
+    .Restore_breadcrumb {
+      display: flex;
+      padding-top: 25px;
+      margin-left: 0;
+
+      li {
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $normal;
+        font-size: 12px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: $bombay;
+
+        &:nth-child(2) {
+          color: black;
+
+
+        }
+
+
+      }
+
+
+    }
+
+    .Restore_mainFlex {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      padding-bottom: 100px;
+
+      h2 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        font-family: $gothamPro;
+        font-style: normal;
+        font-weight: $extrabold;
+        font-size: 40px;
+        line-height: 160%;
+        text-align: left;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $shark;
+        background: url(../img/Rectangle14.png) no-repeat bottom;
+
+
+      }
+
+    }
+
+    .Restore_itemFlex {
+      display: flex;
+      flex-flow: row wrap;
+      margin-top: 53px;
+      margin-left: 0;
+      /*Restore Item*/
+      .Restore_item {
+        margin-right: 30px;
+        width: 270px;
+        height: 349px;
+        background: $white;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        &:nth-child(2){
+          margin-top: 30px;
+
+
+        }
+        &:nth-child(3){
+          margin-top: 30px;
+
+
+        }
+        &:nth-child(4){
+          margin-top: 30px;
+
+
+        }
+
+        & > p {
+          padding-left: 25px;
+          padding-right: 25px;
+          font-family: $gothamPro;
+          font-style: normal;
+          font-weight: $normal;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+
+          span {
+            color: $green;
+
+
+          }
+
+        }
+
+        &:last-child {
+          margin-right: 0;
+          margin-top: 30px;
+          margin-bottom: 100px;
+        }
+
+        &:hover {
+          transition: transform 0.5s;
+          transform: scale(1.2);
+        }
+        img {
+          width: 270px;
+          height: 202px;
+          margin-bottom: 20px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+
+        }
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+}
