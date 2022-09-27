@@ -142,6 +142,9 @@ nav .container .wrapper {
   margin-top: 37px;
   justify-content: space-between;
 }
+nav .container .wrapper #menu__toggle {
+  visibility: hidden;
+}
 nav .container .wrapper ul {
   display: flex;
   align-items: center;
@@ -167,6 +170,9 @@ nav .container .wrapper ul li:nth-child(6) a {
   font-style: normal;
   font-weight: 700;
 }
+nav .container .wrapper ul li:nth-child(7) {
+  background: none;
+}
 nav .container .wrapper ul li:last-child {
   background: none;
 }
@@ -174,6 +180,7 @@ nav .container .wrapper ul li:hover {
   color: #49A069;
 }
 nav .container .wrapper .cart {
+  margin-top: 15px;
   background: url("../img/cart.png") no-repeat;
   width: 60px;
   height: 54px;
@@ -184,6 +191,7 @@ nav .container .wrapper button {
   background: #49A069;
   border: 0;
   border-radius: 100px;
+  font-family: "Gotham Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
