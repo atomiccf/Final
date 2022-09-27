@@ -177,6 +177,9 @@ nav .container .wrapper ul li:last-child {
 nav .container .wrapper ul li:hover {
   color: #49A069;
 }
+nav .container .wrapper #menu__btn {
+  visibility: hidden;
+}
 nav .container .wrapper .cart {
   background: url("../img/cart.png") no-repeat;
   margin-top: 12px;
