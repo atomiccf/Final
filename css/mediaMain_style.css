@@ -109,6 +109,8 @@
     color: #262728;
     text-align: center;
     white-space: pre-wrap;
+    margin-left: 0;
+    margin-right: 0;
   }
   nav .container .wrapper ul li:first-child a {
     color: #49A069;
