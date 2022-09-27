@@ -263,10 +263,7 @@ main .top_section .flex_wrapper .one ul li {
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
-main .top_section .flex_wrapper .one ul li:last-child {
-  list-style-image: none;
-}
-main .top_section .flex_wrapper .one ul li:last-child button {
+main .top_section .flex_wrapper .one ul li button {
   position: absolute;
   left: 0;
   width: 270px;
@@ -283,9 +280,12 @@ main .top_section .flex_wrapper .one ul li:last-child button {
   letter-spacing: 0.02em;
   color: #262728;
 }
-main .top_section .flex_wrapper .one ul li:last-child button:hover {
+main .top_section .flex_wrapper .one ul li button:hover {
   cursor: pointer;
   animation: shake 0.5s ease-in-out;
+}
+main .top_section .flex_wrapper .one ul li:last-child {
+  list-style-image: none;
 }
 main .top_section .flex_wrapper .two {
   width: 50%;
