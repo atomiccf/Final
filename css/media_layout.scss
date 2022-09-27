@@ -158,7 +158,7 @@
         button{
           position: absolute;
           left: 969px;
-          top: 37px;
+          top: 50px;
           width: 170px;
           height: 50px;
           background: $green;
@@ -919,6 +919,7 @@
           }
         }
         .cart{
+          margin-top: 0;
           top: 5px;
           left: 654px;
           background: url("../img/cart.png") no-repeat;

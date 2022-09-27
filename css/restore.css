@@ -167,7 +167,10 @@ nav .container .wrapper ul li:nth-child(3) a {
   font-style: normal;
   font-weight: 700;
 }
-nav .container .wrapper ul li:last-child {
+nav .container .wrapper ul li:nth-child(7) {
+  background: none;
+}
+nav .container .wrapper ul li:nth-child(8) {
   background: none;
 }
 nav .container .wrapper ul li:hover {
@@ -177,6 +180,7 @@ nav .container .wrapper #menu__toggle {
   visibility: hidden;
 }
 nav .container .wrapper .cart {
+  margin-top: 12px;
   background: url("../img/cart.png") no-repeat;
   width: 60px;
   height: 54px;

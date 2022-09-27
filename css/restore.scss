@@ -207,7 +207,10 @@ nav {
 
           }
 
-          &:last-child {
+          &:nth-child(7) {
+            background: none;
+          }
+          &:nth-child(8) {
             background: none;
           }
 
@@ -223,6 +226,7 @@ nav {
 
       }
       .cart {
+        margin-top: 12px;
         background: url("../img/cart.png") no-repeat;
         width: 60px;
         height: 54px;
