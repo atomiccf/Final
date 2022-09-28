@@ -1,5 +1,6 @@
 @import "variables.scss";
-@import "media_layout.scss";
+@import "css_layout/media_layout.scss";
+
 @media screen and (max-width: 1559px){
   .Restore {
     .Restore_wrapper {

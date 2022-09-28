@@ -2,9 +2,6 @@
 @import url(fontStyle_regular.css);
 @import url(fontStyle_bold.css);
 @import url(fontStyle_extrabold.css);
-@import url(fontStyle_regular.css);
-@import url(fontStyle_bold.css);
-@import url(fontStyle_extrabold.css);
 @media screen and (max-width: 1559px) {
   /*header*/
   .top_line {
@@ -31,17 +28,17 @@
     margin-right: 20px;
   }
   .top_line .container .wrapper .social_flex a:first-child {
-    background: url("../img/social_spritesheet.png")-5px -5px;
+    background: url("../../img/social_spritesheet.png")-5px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(2) {
-    background: url("../img/social_spritesheet.png")-24px -5px;
+    background: url("../../img/social_spritesheet.png")-24px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(3) {
     width: 21px;
-    background: url("../img/social_spritesheet.png")-74px -5px;
+    background: url("../../img/social_spritesheet.png")-74px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(4) {
-    background: url("../img/social_spritesheet.png")-50px -5px;
+    background: url("../../img/social_spritesheet.png")-50px -5px;
     margin-right: 0;
   }
   .top_line .container .wrapper .contact_flex {
@@ -61,7 +58,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorpoint.png") no-repeat left;
+    background: url("../../img/Vectorpoint.png") no-repeat left;
   }
   .top_line .container .wrapper .contact_flex a {
     padding-left: 15px;
@@ -71,7 +68,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorphone.png") no-repeat left;
+    background: url("../../img/Vectorphone.png") no-repeat left;
   }
   nav {
     width: 100%;
@@ -99,7 +96,7 @@
   }
   nav .container .wrapper ul li {
     display: block;
-    background: url("../img/Rectangle 8.png") no-repeat right;
+    background: url("../../img/Rectangle 8.png") no-repeat right;
     padding-right: 5px;
     padding-left: 5px;
   }
@@ -126,7 +123,7 @@
     position: absolute;
     top: 37px;
     left: 891px;
-    background: url("../img/cart.png") no-repeat;
+    background: url("../../img/cart.png") no-repeat;
     width: 60px;
     height: 54px;
   }
@@ -297,17 +294,17 @@
     margin-right: 20px;
   }
   .top_line .container .wrapper .social_flex a:first-child {
-    background: url("../img/social_spritesheet.png")-5px -5px;
+    background: url("../../img/social_spritesheet.png")-5px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(2) {
-    background: url("../img/social_spritesheet.png")-24px -5px;
+    background: url("../../img/social_spritesheet.png")-24px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(3) {
     width: 21px;
-    background: url("../img/social_spritesheet.png")-74px -5px;
+    background: url("../../img/social_spritesheet.png")-74px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(4) {
-    background: url("../img/social_spritesheet.png")-50px -5px;
+    background: url("../../img/social_spritesheet.png")-50px -5px;
     margin-right: 0;
   }
   .top_line .container .wrapper .contact_flex {
@@ -327,7 +324,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorpoint.png") no-repeat left;
+    background: url("../../img/Vectorpoint.png") no-repeat left;
   }
   .top_line .container .wrapper .contact_flex a {
     padding-left: 15px;
@@ -337,7 +334,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorphone.png") no-repeat left;
+    background: url("../../img/Vectorphone.png") no-repeat left;
   }
   nav {
     width: 100%;
@@ -364,7 +361,7 @@
   }
   nav .container .wrapper ul li {
     display: block;
-    background: url("../img/Rectangle 8.png") no-repeat right;
+    background: url("../../img/Rectangle 8.png") no-repeat right;
     padding-right: 4px;
     padding-left: 4px;
   }
@@ -387,7 +384,7 @@
   }
   nav .container .wrapper .cart {
     left: 721px;
-    background: url("../img/cart.png") no-repeat;
+    background: url("../../img/cart.png") no-repeat;
     width: 60px;
     height: 54px;
   }
@@ -555,17 +552,17 @@
     margin-right: 20px;
   }
   .top_line .container .wrapper .social_flex a:first-child {
-    background: url("../img/social_spritesheet.png")-5px -5px;
+    background: url("../../img/social_spritesheet.png")-5px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(2) {
-    background: url("../img/social_spritesheet.png")-24px -5px;
+    background: url("../../img/social_spritesheet.png")-24px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(3) {
     width: 21px;
-    background: url("../img/social_spritesheet.png")-74px -5px;
+    background: url("../../img/social_spritesheet.png")-74px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(4) {
-    background: url("../img/social_spritesheet.png")-50px -5px;
+    background: url("../../img/social_spritesheet.png")-50px -5px;
     margin-right: 0;
   }
   .top_line .container .wrapper .contact_flex {
@@ -585,7 +582,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorpoint.png") no-repeat left;
+    background: url("../../img/Vectorpoint.png") no-repeat left;
   }
   .top_line .container .wrapper .contact_flex a {
     padding-left: 15px;
@@ -595,7 +592,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorphone.png") no-repeat left;
+    background: url("../../img/Vectorphone.png") no-repeat left;
   }
   nav {
     width: 100%;
@@ -624,7 +621,7 @@
   }
   nav .container .wrapper ul li {
     display: block;
-    background: url("../img/Rectangle 8.png") no-repeat right;
+    background: url("../../img/Rectangle 8.png") no-repeat right;
     padding-right: 6px;
     padding-left: 6px;
   }
@@ -653,7 +650,7 @@
     margin-top: 0;
     top: 5px;
     left: 654px;
-    background: url("../img/cart.png") no-repeat;
+    background: url("../../img/cart.png") no-repeat;
     width: 60px;
     height: 54px;
   }
@@ -824,17 +821,17 @@
     margin-right: 20px;
   }
   .top_line .container .wrapper .social_flex a:first-child {
-    background: url("../img/social_spritesheet.png")-5px -5px;
+    background: url("../../img/social_spritesheet.png")-5px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(2) {
-    background: url("../img/social_spritesheet.png")-24px -5px;
+    background: url("../../img/social_spritesheet.png")-24px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(3) {
     width: 21px;
-    background: url("../img/social_spritesheet.png")-74px -5px;
+    background: url("../../img/social_spritesheet.png")-74px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(4) {
-    background: url("../img/social_spritesheet.png")-50px -5px;
+    background: url("../../img/social_spritesheet.png")-50px -5px;
     margin-right: 0;
   }
   .top_line .container .wrapper .contact_flex {
@@ -854,7 +851,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorpoint.png") no-repeat left;
+    background: url("../../img/Vectorpoint.png") no-repeat left;
   }
   .top_line .container .wrapper .contact_flex a {
     display: none;
@@ -865,7 +862,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorphone.png") no-repeat left;
+    background: url("../../img/Vectorphone.png") no-repeat left;
   }
   nav {
     width: 100%;
@@ -951,7 +948,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   nav .container .wrapper ul li {
     display: block;
-    background: url("../img/Rectangle 8.png") no-repeat right;
+    background: url("../../img/Rectangle 8.png") no-repeat right;
     padding-right: 4px;
     padding-left: 4px;
     text-align: center;
@@ -984,7 +981,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   nav .container .wrapper .cart {
     top: 15px;
     left: 295px;
-    background: url("../img/cart_mob.png") no-repeat;
+    background: url("../../img/cart_mob.png") no-repeat;
     width: 32px;
     height: 32px;
   }
@@ -1155,17 +1152,17 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     margin-right: 20px;
   }
   .top_line .container .wrapper .social_flex a:first-child {
-    background: url("../img/social_spritesheet.png")-5px -5px;
+    background: url("../../img/social_spritesheet.png")-5px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(2) {
-    background: url("../img/social_spritesheet.png")-24px -5px;
+    background: url("../../img/social_spritesheet.png")-24px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(3) {
     width: 21px;
-    background: url("../img/social_spritesheet.png")-74px -5px;
+    background: url("../../img/social_spritesheet.png")-74px -5px;
   }
   .top_line .container .wrapper .social_flex a:nth-child(4) {
-    background: url("../img/social_spritesheet.png")-50px -5px;
+    background: url("../../img/social_spritesheet.png")-50px -5px;
     margin-right: 0;
   }
   .top_line .container .wrapper .contact_flex {
@@ -1185,7 +1182,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorpoint.png") no-repeat left;
+    background: url("../../img/Vectorpoint.png") no-repeat left;
   }
   .top_line .container .wrapper .contact_flex a {
     display: none;
@@ -1196,7 +1193,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../img/Vectorphone.png") no-repeat left;
+    background: url("../../img/Vectorphone.png") no-repeat left;
   }
   nav {
     width: 100%;
@@ -1282,7 +1279,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   nav .container .wrapper ul li {
     display: block;
-    background: url("../img/Rectangle 8.png") no-repeat right;
+    background: url("../../img/Rectangle 8.png") no-repeat right;
     padding-right: 4px;
     padding-left: 4px;
     text-align: center;
@@ -1315,7 +1312,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   nav .container .wrapper .cart {
     top: 15px;
     left: 192px;
-    background: url("../img/cart_mob.png") no-repeat;
+    background: url("../../img/cart_mob.png") no-repeat;
     width: 32px;
     height: 32px;
   }
@@ -1462,590 +1459,5 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     margin-right: 0;
   }
 }
-@media screen and (max-width: 1559px) {
-  .faq_wrapper {
-    width: 100%;
-    height: auto;
-    background-color: #f8f9fa;
-  }
-  .faq_container {
-    width: 1140px;
-    margin: 0 auto;
-  }
-  .faq_container .faq_breadcrumb {
-    display: flex;
-    padding-top: 25px;
-    margin-left: 0;
-  }
-  .faq_container .faq_breadcrumb li {
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #A8A9AA;
-  }
-  .faq_container .faq_breadcrumb li:nth-child(2) {
-    color: black;
-  }
-  .faq_container h2 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 160%;
-    text-align: left;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #262728;
-    background: url(../img/Rectangle14.png) no-repeat bottom;
-  }
-  ul.accordion-list {
-    position: relative;
-    display: block;
-    width: 94%;
-    height: auto;
-    padding: 20px 20px 20px 0;
-    margin-left: 0;
-    list-style: none;
-    background-color: #f9f9fA;
-  }
-  ul.accordion-list li {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin: 0 auto 15px auto;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  ul.accordion-list li.active h3:after {
-    transform: rotate(45deg);
-  }
-  ul.accordion-list li h3 {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0 0 0 0;
-    margin: 0;
-    cursor: pointer;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #262728;
-  }
-  ul.accordion-list li h3:after {
-    content: "✚";
-    font-family: "Gotham Pro", sans-serif;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #000000;
-    transition: all 0.3s ease-in-out;
-    font-size: 18px;
-  }
-  ul.accordion-list li div.answer {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-  }
-  ul.accordion-list li div.answer p {
-    position: relative;
-    display: block;
-    padding: 10px 0 0 0;
-    cursor: pointer;
-    margin: 0 0 15px 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #000000;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .faq_wrapper {
-    width: 100%;
-    height: auto;
-    background-color: #f8f9fa;
-  }
-  .faq_container {
-    width: 960px;
-    margin: 0 auto;
-  }
-  .faq_container .faq_breadcrumb {
-    display: flex;
-    padding-top: 25px;
-    margin-left: 0;
-  }
-  .faq_container .faq_breadcrumb li {
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #A8A9AA;
-  }
-  .faq_container .faq_breadcrumb li:nth-child(2) {
-    color: black;
-  }
-  .faq_container h2 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 160%;
-    text-align: left;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #262728;
-    background: url(../img/Rectangle14.png) no-repeat bottom;
-  }
-  ul.accordion-list {
-    position: relative;
-    display: block;
-    width: 94%;
-    height: auto;
-    padding: 20px 20px 20px 0;
-    margin-left: 0;
-    list-style: none;
-    background-color: #f9f9fA;
-  }
-  ul.accordion-list li {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin: 0 auto 15px auto;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  ul.accordion-list li.active h3:after {
-    transform: rotate(45deg);
-  }
-  ul.accordion-list li h3 {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0 0 0 0;
-    margin: 0;
-    cursor: pointer;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #262728;
-  }
-  ul.accordion-list li h3:after {
-    content: "✚";
-    font-family: "Gotham Pro", sans-serif;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #000000;
-    transition: all 0.3s ease-in-out;
-    font-size: 18px;
-  }
-  ul.accordion-list li div.answer {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-  }
-  ul.accordion-list li div.answer p {
-    position: relative;
-    display: block;
-    padding: 10px 0 0 0;
-    cursor: pointer;
-    margin: 0 0 15px 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #000000;
-  }
-}
-@media screen and (max-width: 991px) {
-  .faq_wrapper {
-    width: 100%;
-    height: auto;
-    background-color: #f8f9fa;
-  }
-  .faq_container {
-    width: 720px;
-    margin: 0 auto;
-  }
-  .faq_container .faq_breadcrumb {
-    display: flex;
-    padding-top: 25px;
-    margin-left: 0;
-  }
-  .faq_container .faq_breadcrumb li {
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #A8A9AA;
-  }
-  .faq_container .faq_breadcrumb li:nth-child(2) {
-    color: black;
-  }
-  .faq_container h2 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 160%;
-    text-align: left;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #262728;
-    background: url(../img/Rectangle14.png) no-repeat bottom;
-  }
-  ul.accordion-list {
-    position: relative;
-    display: block;
-    width: 91%;
-    height: auto;
-    padding: 20px 20px 20px 0;
-    margin-left: 0;
-    list-style: none;
-    background-color: #f9f9fA;
-  }
-  ul.accordion-list li {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin: 0 auto 15px auto;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  ul.accordion-list li.active h3:after {
-    transform: rotate(45deg);
-  }
-  ul.accordion-list li h3 {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0 0 0 0;
-    margin: 0;
-    cursor: pointer;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #262728;
-  }
-  ul.accordion-list li h3:after {
-    content: "✚";
-    font-family: "Gotham Pro", sans-serif;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #000000;
-    transition: all 0.3s ease-in-out;
-    font-size: 18px;
-  }
-  ul.accordion-list li div.answer {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-  }
-  ul.accordion-list li div.answer p {
-    position: relative;
-    display: block;
-    padding: 10px 0 0 0;
-    cursor: pointer;
-    margin: 0 0 15px 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #000000;
-  }
-}
-@media screen and (max-width: 767px) {
-  .faq_wrapper {
-    width: 100%;
-    height: auto;
-    background-color: #f8f9fa;
-  }
-  .faq_container {
-    width: 540px;
-    margin: 0 auto;
-  }
-  .faq_container .faq_breadcrumb {
-    display: flex;
-    padding-top: 25px;
-    margin-left: 0;
-  }
-  .faq_container .faq_breadcrumb li {
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #A8A9AA;
-  }
-  .faq_container .faq_breadcrumb li:nth-child(2) {
-    color: black;
-  }
-  .faq_container h2 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 160%;
-    text-align: left;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #262728;
-    background: url(../img/Rectangle14.png) no-repeat bottom;
-  }
-  ul.accordion-list {
-    position: relative;
-    display: block;
-    width: 91%;
-    height: auto;
-    padding: 20px 20px 20px 0;
-    margin-left: 0;
-    list-style: none;
-    background-color: #f9f9fA;
-  }
-  ul.accordion-list li {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin: 0 auto 15px auto;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  ul.accordion-list li.active h3:after {
-    transform: rotate(45deg);
-  }
-  ul.accordion-list li h3 {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0 0 0 0;
-    margin: 0;
-    cursor: pointer;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #262728;
-  }
-  ul.accordion-list li h3:after {
-    content: "✚";
-    font-family: "Gotham Pro", sans-serif;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #000000;
-    transition: all 0.3s ease-in-out;
-    font-size: 18px;
-  }
-  ul.accordion-list li div.answer {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-  }
-  ul.accordion-list li div.answer p {
-    position: relative;
-    display: block;
-    padding: 10px 0 0 0;
-    cursor: pointer;
-    margin: 0 0 15px 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #000000;
-  }
-}
-@media screen and (max-width: 575px) {
-  .faq_wrapper {
-    width: 100%;
-    height: auto;
-    background-color: #f8f9fa;
-  }
-  .faq_container {
-    width: 300px;
-    margin: 0 auto;
-  }
-  .faq_container .faq_breadcrumb {
-    display: flex;
-    padding-top: 25px;
-    margin-left: 0;
-  }
-  .faq_container .faq_breadcrumb li {
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #A8A9AA;
-  }
-  .faq_container .faq_breadcrumb li:nth-child(2) {
-    color: black;
-  }
-  .faq_container h2 {
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 160%;
-    text-align: left;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #262728;
-    background: url(../img/Rectangle14.png) no-repeat bottom;
-  }
-  ul.accordion-list {
-    position: relative;
-    display: block;
-    width: 91%;
-    height: auto;
-    padding: 20px 20px 20px 0;
-    margin-left: 0;
-    list-style: none;
-    background-color: #f9f9fA;
-  }
-  ul.accordion-list li {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin: 0 auto 15px auto;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  ul.accordion-list li.active h3:after {
-    transform: rotate(45deg);
-  }
-  ul.accordion-list li h3 {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    padding: 0 0 0 0;
-    margin: 0;
-    cursor: pointer;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #262728;
-  }
-  ul.accordion-list li h3:after {
-    content: "✚";
-    font-family: "Gotham Pro", sans-serif;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #000000;
-    transition: all 0.3s ease-in-out;
-    font-size: 18px;
-  }
-  ul.accordion-list li div.answer {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-  }
-  ul.accordion-list li div.answer p {
-    position: relative;
-    display: block;
-    padding: 10px 0 0 0;
-    cursor: pointer;
-    margin: 0 0 15px 0;
-    font-family: "Gotham Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: 0.02em;
-    color: #000000;
-  }
-}
 
-/*# sourceMappingURL=media_FAQ.css.map */
+/*# sourceMappingURL=media_layout.css.map */
