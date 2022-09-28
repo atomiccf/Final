@@ -60,6 +60,57 @@
   flex-direction: column;
 }
 
+
+nav {
+ul{
+  li{
+    display: block;
+    background: url("/../img/Rectangle 8.png")no-repeat right;
+    padding-right: 13px;
+    padding-left: 13px;
+    &:nth-child(7) {
+      background: none;
+    }
+    &:nth-child(8) {
+      background: none;
+    }
+    a{
+
+      font-family: $gothamPro;
+      font-style: normal;
+      font-weight: $bold;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0.02em;
+      color: $shark;
+
+
+
+
+    }
+    &:nth-child(2){
+      a{
+        color: $green;
+      }
+
+    }
+    &:last-child{
+      background: none;
+    }
+    &:hover{
+      color:$green;
+    }
+
+  }
+
+
+
+}
+
+
+
+}
+
 .siteContent {
   flex: 1;
 }

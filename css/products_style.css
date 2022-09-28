@@ -119,14 +119,11 @@ nav .container .wrapper ul li a {
   letter-spacing: 0.02em;
   color: #262728;
 }
-nav .container .wrapper ul li:first-child a {
+nav .container .wrapper ul li a:hover {
   color: #49A069;
 }
 nav .container .wrapper ul li:last-child {
   background: none;
-}
-nav .container .wrapper ul li:hover {
-  color: #49A069;
 }
 nav .container .wrapper #menu__btn {
   visibility: hidden;
@@ -325,6 +322,37 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+}
+
+nav ul li {
+  display: block;
+  background: url("/../img/Rectangle 8.png") no-repeat right;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+nav ul li:nth-child(7) {
+  background: none;
+}
+nav ul li:nth-child(8) {
+  background: none;
+}
+nav ul li a {
+  font-family: "Gotham Pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #262728;
+}
+nav ul li:nth-child(2) a {
+  color: #49A069;
+}
+nav ul li:last-child {
+  background: none;
+}
+nav ul li:hover {
+  color: #49A069;
 }
 
 .siteContent {

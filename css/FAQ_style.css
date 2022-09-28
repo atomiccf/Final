@@ -120,14 +120,11 @@ nav .container .wrapper ul li a {
   letter-spacing: 0.02em;
   color: #262728;
 }
-nav .container .wrapper ul li:first-child a {
+nav .container .wrapper ul li a:hover {
   color: #49A069;
 }
 nav .container .wrapper ul li:last-child {
   background: none;
-}
-nav .container .wrapper ul li:hover {
-  color: #49A069;
 }
 nav .container .wrapper #menu__btn {
   visibility: hidden;

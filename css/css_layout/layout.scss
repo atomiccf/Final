@@ -132,18 +132,14 @@ nav{
 
 
           }
-          &:first-child{
-            a{
-              color: $green;
-            }
-
+          a:hover{
+            color:$green;
           }
+
           &:last-child{
             background: none;
           }
-          &:hover{
-            color:$green;
-          }
+
 
         }
       }
