@@ -1218,9 +1218,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     margin-left: 0;
     width: 112px;
   }
-  nav .container .wrapper .hamburger-menu {
-    /* добавляем "гамбургер" */
-  }
   nav .container .wrapper .hamburger-menu .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center; /* центрируем содержимое кнопки */

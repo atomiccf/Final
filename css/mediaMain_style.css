@@ -1218,9 +1218,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     margin-left: 0;
     width: 112px;
   }
-  nav .container .wrapper .hamburger-menu {
-    /* добавляем "гамбургер" */
-  }
   nav .container .wrapper .hamburger-menu .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center; /* центрируем содержимое кнопки */
@@ -1562,7 +1559,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   main .top_section .flex_wrapper .two img:nth-child(1) {
     position: absolute;
-    right: 10px;
+    right: 83px;
     bottom: -272px;
     width: 1133px;
     -webkit-clip-path: polygon(81% 0, 28% 100%, 100% 100%);
