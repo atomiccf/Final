@@ -61,7 +61,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../../img/Vectorpoint.png") no-repeat left;
+    background: url("../img/Vectorpoint.png") no-repeat left;
   }
   .top_line .container .wrapper .contact_flex a {
     padding-left: 15px;
@@ -71,7 +71,7 @@
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: url("../../img/Vectorphone.png") no-repeat left;
+    background: url("../img/Vectorphone.png") no-repeat left;
   }
   nav {
     width: 100%;
