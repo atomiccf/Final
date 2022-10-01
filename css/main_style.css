@@ -32,17 +32,17 @@
   margin-right: 20px;
 }
 .top_line .container .wrapper .social_flex a:first-child {
-  background: url("../../img/social_spritesheet.png")-5px -5px;
+  background: url("../img/social_spritesheet.png")-5px -5px;
 }
 .top_line .container .wrapper .social_flex a:nth-child(2) {
-  background: url("../../img/social_spritesheet.png")-24px -5px;
+  background: url("../img/social_spritesheet.png")-24px -5px;
 }
 .top_line .container .wrapper .social_flex a:nth-child(3) {
   width: 21px;
-  background: url("../../img/social_spritesheet.png")-74px -5px;
+  background: url("../img/social_spritesheet.png")-74px -5px;
 }
 .top_line .container .wrapper .social_flex a:nth-child(4) {
-  background: url("../../img/social_spritesheet.png")-50px -5px;
+  background: url("../img/social_spritesheet.png")-50px -5px;
   margin-right: 0;
 }
 .top_line .container .wrapper .contact_flex {
@@ -62,7 +62,7 @@
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  background: url("../../img/Vectorpoint.png") no-repeat left;
+  background: url("../img/Vectorpoint.png") no-repeat left;
 }
 .top_line .container .wrapper .contact_flex a {
   padding-left: 15px;
@@ -73,7 +73,7 @@
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  background: url("../../img/Vectorphone.png") no-repeat left;
+  background: url("../img/Vectorphone.png") no-repeat left;
 }
 
 nav {
@@ -100,7 +100,7 @@ nav .container .wrapper ul {
 }
 nav .container .wrapper ul li {
   display: block;
-  background: url("../../img/Rectangle 8.png") no-repeat right;
+  background: url("../img/Rectangle 8.png") no-repeat right;
   padding-right: 13px;
   padding-left: 13px;
 }
@@ -129,7 +129,7 @@ nav .container .wrapper #menu__btn {
   visibility: hidden;
 }
 nav .container .wrapper .cart {
-  background: url("../../img/cart.png") no-repeat;
+  background: url("../img/cart.png") no-repeat;
   margin-top: 12px;
   width: 60px;
   height: 54px;

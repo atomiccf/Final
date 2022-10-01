@@ -21,20 +21,20 @@
           margin-right: 20px;
 
           &:first-child {
-            background: url("../../img/social_spritesheet.png")-5px -5px ;
+            background: url("../img/social_spritesheet.png")-5px -5px ;
           }
           &:nth-child(2) {
 
-            background: url("../../img/social_spritesheet.png")-24px -5px ;
+            background: url("../img/social_spritesheet.png")-24px -5px ;
 
           }
           &:nth-child(3) {
             width: 21px;
-            background: url("../../img/social_spritesheet.png")-74px -5px ;
+            background: url("../img/social_spritesheet.png")-74px -5px ;
 
           }
           &:nth-child(4) {
-            background: url("../../img/social_spritesheet.png")-50px -5px;
+            background: url("../img/social_spritesheet.png")-50px -5px;
             margin-right: 0;
           }
         }
@@ -57,7 +57,7 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $white;
-          background: url("../../img/Vectorpoint.png")no-repeat left;
+          background: url("../img/Vectorpoint.png")no-repeat left;
 
 
 
@@ -73,7 +73,7 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $white;
-          background: url("../../img/Vectorphone.png")no-repeat left;
+          background: url("../img/Vectorphone.png")no-repeat left;
         }
 
       }
@@ -109,7 +109,7 @@ nav{
         align-items: center;
         li{
           display: block;
-          background: url("../../img/Rectangle 8.png")no-repeat right;
+          background: url("../img/Rectangle 8.png")no-repeat right;
           padding-right: 13px;
           padding-left: 13px;
           &:nth-child(7) {
@@ -148,7 +148,7 @@ nav{
 
       }
       .cart{
-        background: url("../../img/cart.png") no-repeat;
+        background: url("../img/cart.png") no-repeat;
         margin-top: 12px;
         width: 60px;
         height: 54px;
