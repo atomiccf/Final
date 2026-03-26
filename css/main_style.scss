@@ -73,15 +73,15 @@ main{
       width: 100%;
       height: 572px;
        background: linear-gradient(329deg ,#2B3966 15%, #49A069 15%, #49A069 86%, #2B3966 15%)
-
-
     }
+
     .container{
       width: $xxl;
       margin: 0 auto;
     }
+
   .flex_wrapper{
-  display: flex;
+    display: flex;
     position: relative ;
 
     .one{
@@ -101,7 +101,6 @@ main{
           background-color: $deepblue;
           background-image: none;
         }
-
       }
       .elementOne{
 
@@ -144,40 +143,27 @@ main{
               cursor: pointer;
               animation: shake 0.5s ease-in-out ;
             }
-
-
           }
           &:last-child{
             list-style-image:none;
-
-
-
-
           }
-
-
-
-
         }
-
-
-
-
       }
-
-
     }
+
     .two{
       width: 50%;
       position: relative;
       height: 300px;
       margin-left: auto;
       margin-right: auto;
+
       img:nth-child(2){
         position: absolute;
         right:423px;
         z-index: 1;
       }
+
       img:nth-child(1){
         position: absolute;
         right: 184px;
@@ -185,11 +171,8 @@ main{
         width: 1133px;
         -webkit-clip-path: polygon(81% 0, 28% 100%, 100% 100%);
         clip-path: polygon(76.5% 0%, 80.1% 0%, 100% 100%, 33.8% 100%);;
-
-
-
-
       }
+
       .elementTwo{
         position: absolute;
         top: 60px;
@@ -198,6 +181,7 @@ main{
         height: 201px;
         background: url("../img/topBlock_spritesheet.png") -201px -5px no-repeat;
       }
+
       .elementThree{
         position: absolute;
         right: 0;
@@ -205,23 +189,19 @@ main{
         width: 209px;
         height: 129px;
         background: url("../img/topBlock_spritesheet.png") -754px -5px no-repeat;
-
-
       }
-
     }
   }
-
 }
   /*ourMission*/
   .ourMission {
   .container{
     width: $xxl;
     margin: 0 auto;
-  }
+    }
     margin-top: 85px;
-    h2{
 
+    h2{
       font-style: normal;
       font-weight: $extrabold;
       font-size: 40px;
@@ -231,9 +211,8 @@ main{
       text-transform: uppercase;
       color: $shark;
       background: url(../img/border.jpg) no-repeat bottom ;
-
-
     }
+
     .flex_wrapper{
       display: flex;
       justify-content: center;
@@ -245,10 +224,11 @@ main{
       width: 50%;
       .contentHolder_span{
         margin-top: 133px;
+
         img{
           margin-left: 30px;
           margin-right: 19px;
-        }
+         }
         display: block;
         width: 600px;
         background-color: #2B3966;
@@ -259,11 +239,8 @@ main{
         line-height: 160%;
         letter-spacing: 0.02em;
         color: $white;
-
-
-
-
       }
+
       .contentHolder_p{
         position: absolute;
         width: 600px;
@@ -274,11 +251,8 @@ main{
         font-size: 16px;
         line-height: 160%;
         letter-spacing: 0.02em;
-
-
         color: $white;
         background-color: $green;
-
       }
     }
   }
@@ -294,6 +268,7 @@ main{
       width: $xxl;
       margin: 0 auto;
     }
+
     .ourProducts_mainFlex{
       width: 100%;
       display: flex;
@@ -314,13 +289,9 @@ main{
         color: $shark;
         background: url(../img/border_gray.png) no-repeat bottom ;
 
-
-
-
-
       }
-      form{
 
+      form{
         .ourProducts_buttonAll{
           margin-top: 50px;
           margin-bottom: 100px;
@@ -341,12 +312,10 @@ main{
             cursor: pointer;
             animation: shake 0.5s ease-in-out ;
           }
-
         }
-
       }
-
     }
+
     .ourProducts_itemFlex{
       display: flex;
       margin-top: 53px;
@@ -383,11 +352,9 @@ main{
 
         span{
           color: $green;
-
-
-
         }
       }
+
           img[alt="glass with milk"]{
             position: absolute;
             bottom: 110px;
@@ -395,7 +362,6 @@ main{
             width: 137px;
             height: 170px;
             z-index: 1;
-
       }
           #clover{
             position: absolute;
@@ -444,10 +410,7 @@ main{
           color: $green;
 
         }
-
-      }
-
-
+     }
   }
   }
 
@@ -466,8 +429,6 @@ main{
     align-items: center;
     position: relative;
 
-
-
     h2{
       width: 100%;
       margin-top: 85px;
@@ -481,8 +442,6 @@ main{
       text-transform: uppercase;
       color: $white;
       background: url(../img/border.png) no-repeat bottom ;
-
-
     }
 
     .myStory_mainFlex_item1{
@@ -546,11 +505,8 @@ main{
       line-height: 160%;
       letter-spacing: 0.02em;
       color: $black;
-
-
-    }
+   }
     button{
-
       width: 270px;
       height: 50px;
       margin-top: 42px;
@@ -569,22 +525,11 @@ main{
       &:hover{
       cursor: pointer;
         animation: shake 0.5s ease-in-out ;
-
-
       }
-
-
-
     }
   }
  }
-
-
 }
-
-
-
-
 }
 
   /*Our Farm*/
@@ -604,9 +549,7 @@ main{
       width: 42%;
       margin-top: 54px;
       margin-bottom: 100px;
-
     }
-
   }
 
     h2{
@@ -621,17 +564,13 @@ main{
       text-transform: uppercase;
       color: #262728;
       background: url(../img/border.jpg) no-repeat bottom ;
-
-
     }
+
     .ourFarmMap{
       width: 100%;
       img{
         width: 100%;
-
-
       }
-
     }
     .ourFarmContact{
       position: absolute;
@@ -660,11 +599,8 @@ main{
         letter-spacing: 0.02em;
         color: $shark;
         background: url("../img/Vectorgreenpoint.png") no-repeat left ;
-
-
-
-
       }
+
       a{
         margin-left: 30px;
         padding-left: 25px;
@@ -691,30 +627,18 @@ main{
           max-width: 100%;
           .bx-wrapper .bx-next {
           background-color: $white;
-
           }
         }
       }
-
-
       }
-
     }
     .ourFarmMap:hover{
       .ourFarmContact{
         visibility: visible;
       }
-
     }
   }
-
-
-
-
-
-
-
-  }
+}
 
 
 
