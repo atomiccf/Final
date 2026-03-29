@@ -549,6 +549,32 @@ main{
       width: 42%;
       margin-top: 54px;
       margin-bottom: 100px;
+      position: relative;
+
+      .farm-carousel__controls {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 12px;
+      }
+
+      .farm-carousel__btn {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 1px solid $green;
+        background: $white;
+        color: $shark;
+        font-size: 22px;
+        line-height: 1;
+        cursor: pointer;
+        padding: 0;
+        &:hover,
+        &:focus-visible {
+          background: $gray;
+          outline: none;
+        }
+      }
     }
   }
 
@@ -562,7 +588,7 @@ main{
       text-align: center;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: #262728;
+      color: $shark;
       background: url(../img/border.jpg) no-repeat bottom ;
     }
 
@@ -614,29 +640,48 @@ main{
       }
     }
 
-    .slider{
+    .slider {
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
       width: 800px;
-      div{
-        float: none;
-        list-style: none;
-        position: absolute;
-        width: 800px;
-        z-index: 50;
-        display: block;
-        img{
-          max-width: 100%;
-          .bx-wrapper .bx-next {
-          background-color: $white;
-          }
-        }
-      }
+      max-width: 100%;
+      scrollbar-width: thin;
+      &::-webkit-scrollbar {
+        height: 8px;
       }
     }
+
+    .farm-carousel__track {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: max-content;
+      min-width: 100%;
+    }
+
+    .farm-carousel__slide {
+      flex: 0 0 100%;
+      min-width: 100%;
+      scroll-snap-align: start;
+      box-sizing: border-box;
+
+      img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
     .ourFarmMap:hover{
       .ourFarmContact{
         visibility: visible;
       }
     }
+  }
   }
 }
 

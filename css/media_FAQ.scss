@@ -1,5 +1,5 @@
 @import "variables.scss";
-@import "media_layout.scss";
+@import "css_layout/media_layout.scss";
 
 @media screen and (max-width: 1559px){
 
@@ -86,24 +86,19 @@
       border-radius: 5px;
       cursor: pointer;
 
-      &.active {
-        h3 {
-          &:after {
-            transform: rotate(45deg);
-
-          }
-        }
+      details {
+        border: 0;
       }
 
-      h3 {
+      summary {
         position: relative;
         display: block;
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
+        padding: 0;
         margin: 0;
         cursor: pointer;
-
+        list-style: none;
         font-family: $gothamPro;
         font-style: normal;
         font-weight: $bold;
@@ -112,6 +107,9 @@
         letter-spacing: 0.02em;
         color: $shark;
 
+        &::-webkit-details-marker {
+          display: none;
+        }
 
         &:after {
           content: "\271a";
@@ -125,6 +123,10 @@
         }
       }
 
+      details[open] summary:after {
+        transform: rotate(45deg);
+      }
+
       div.answer {
         position: relative;
         display: block;
@@ -132,13 +134,11 @@
         height: auto;
         margin: 0;
         padding: 0;
-        cursor: pointer;
 
         p {
           position: relative;
           display: block;
           padding: 10px 0 0 0;
-          cursor: pointer;
           margin: 0 0 15px 0;
           font-family: $gothamPro;
           font-style: normal;
@@ -147,8 +147,6 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $black;
-
-
         }
       }
     }
@@ -246,24 +244,19 @@
       border-radius: 5px;
       cursor: pointer;
 
-      &.active {
-        h3 {
-          &:after {
-            transform: rotate(45deg);
-
-          }
-        }
+      details {
+        border: 0;
       }
 
-      h3 {
+      summary {
         position: relative;
         display: block;
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
+        padding: 0;
         margin: 0;
         cursor: pointer;
-
+        list-style: none;
         font-family: $gothamPro;
         font-style: normal;
         font-weight: $bold;
@@ -272,6 +265,9 @@
         letter-spacing: 0.02em;
         color: $shark;
 
+        &::-webkit-details-marker {
+          display: none;
+        }
 
         &:after {
           content: "\271a";
@@ -285,6 +281,10 @@
         }
       }
 
+      details[open] summary:after {
+        transform: rotate(45deg);
+      }
+
       div.answer {
         position: relative;
         display: block;
@@ -292,13 +292,11 @@
         height: auto;
         margin: 0;
         padding: 0;
-        cursor: pointer;
 
         p {
           position: relative;
           display: block;
           padding: 10px 0 0 0;
-          cursor: pointer;
           margin: 0 0 15px 0;
           font-family: $gothamPro;
           font-style: normal;
@@ -307,8 +305,6 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $black;
-
-
         }
       }
     }
@@ -406,24 +402,19 @@
       border-radius: 5px;
       cursor: pointer;
 
-      &.active {
-        h3 {
-          &:after {
-            transform: rotate(45deg);
-
-          }
-        }
+      details {
+        border: 0;
       }
 
-      h3 {
+      summary {
         position: relative;
         display: block;
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
+        padding: 0;
         margin: 0;
         cursor: pointer;
-
+        list-style: none;
         font-family: $gothamPro;
         font-style: normal;
         font-weight: $bold;
@@ -432,6 +423,9 @@
         letter-spacing: 0.02em;
         color: $shark;
 
+        &::-webkit-details-marker {
+          display: none;
+        }
 
         &:after {
           content: "\271a";
@@ -445,6 +439,10 @@
         }
       }
 
+      details[open] summary:after {
+        transform: rotate(45deg);
+      }
+
       div.answer {
         position: relative;
         display: block;
@@ -452,13 +450,11 @@
         height: auto;
         margin: 0;
         padding: 0;
-        cursor: pointer;
 
         p {
           position: relative;
           display: block;
           padding: 10px 0 0 0;
-          cursor: pointer;
           margin: 0 0 15px 0;
           font-family: $gothamPro;
           font-style: normal;
@@ -467,8 +463,6 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $black;
-
-
         }
       }
     }
@@ -562,28 +556,23 @@
       background-color: $white;
       padding: 20px;
       margin: 0 auto 15px auto;
-      border: 1px solid #eee;
+      border: 1px solid $iron;
       border-radius: 5px;
-      cursor: pointer;
+      cursor: default;
 
-      &.active {
-        h3 {
-          &:after {
-            transform: rotate(45deg);
-
-          }
-        }
+      details {
+        border: 0;
       }
 
-      h3 {
+      summary {
         position: relative;
         display: block;
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
+        padding: 0;
         margin: 0;
         cursor: pointer;
-
+        list-style: none;
         font-family: $gothamPro;
         font-style: normal;
         font-weight: $bold;
@@ -592,6 +581,9 @@
         letter-spacing: 0.02em;
         color: $shark;
 
+        &::-webkit-details-marker {
+          display: none;
+        }
 
         &:after {
           content: "\271a";
@@ -605,6 +597,10 @@
         }
       }
 
+      details[open] summary:after {
+        transform: rotate(45deg);
+      }
+
       div.answer {
         position: relative;
         display: block;
@@ -612,13 +608,11 @@
         height: auto;
         margin: 0;
         padding: 0;
-        cursor: pointer;
 
         p {
           position: relative;
           display: block;
           padding: 10px 0 0 0;
-          cursor: pointer;
           margin: 0 0 15px 0;
           font-family: $gothamPro;
           font-style: normal;
@@ -627,8 +621,6 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $black;
-
-
         }
       }
     }
@@ -722,28 +714,23 @@
       background-color: $white;
       padding: 20px;
       margin: 0 auto 15px auto;
-      border: 1px solid #eee;
+      border: 1px solid $iron;
       border-radius: 5px;
-      cursor: pointer;
+      cursor: default;
 
-      &.active {
-        h3 {
-          &:after {
-            transform: rotate(45deg);
-
-          }
-        }
+      details {
+        border: 0;
       }
 
-      h3 {
+      summary {
         position: relative;
         display: block;
         width: 100%;
         height: auto;
-        padding: 0 0 0 0;
+        padding: 0;
         margin: 0;
         cursor: pointer;
-
+        list-style: none;
         font-family: $gothamPro;
         font-style: normal;
         font-weight: $bold;
@@ -752,6 +739,9 @@
         letter-spacing: 0.02em;
         color: $shark;
 
+        &::-webkit-details-marker {
+          display: none;
+        }
 
         &:after {
           content: "\271a";
@@ -765,6 +755,10 @@
         }
       }
 
+      details[open] summary:after {
+        transform: rotate(45deg);
+      }
+
       div.answer {
         position: relative;
         display: block;
@@ -772,13 +766,11 @@
         height: auto;
         margin: 0;
         padding: 0;
-        cursor: pointer;
 
         p {
           position: relative;
           display: block;
           padding: 10px 0 0 0;
-          cursor: pointer;
           margin: 0 0 15px 0;
           font-family: $gothamPro;
           font-style: normal;
@@ -787,8 +779,6 @@
           line-height: 160%;
           letter-spacing: 0.02em;
           color: $black;
-
-
         }
       }
     }
