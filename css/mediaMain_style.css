@@ -171,7 +171,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -437,7 +437,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -712,7 +712,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -909,9 +909,6 @@
     margin-left: 54px;
     width: 150px;
   }
-  nav .container .wrapper .hamburger-menu {
-    /* добавляем "гамбургер" */
-  }
   nav .container .wrapper .hamburger-menu .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center; /* центрируем содержимое кнопки */
@@ -923,9 +920,12 @@
     cursor: pointer;
     z-index: 4;
   }
+  nav .container .wrapper .hamburger-menu {
+    /* добавляем "гамбургер" */
+  }
   nav .container .wrapper .hamburger-menu .menu__btn > span,
-nav .container .wrapper .hamburger-menu .menu__btn > span::before,
-nav .container .wrapper .hamburger-menu .menu__btn > span::after {
+  nav .container .wrapper .hamburger-menu .menu__btn > span::before,
+  nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -1051,7 +1051,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -1260,8 +1260,8 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     z-index: 4;
   }
   nav .container .wrapper .hamburger-menu .menu__btn > span,
-nav .container .wrapper .hamburger-menu .menu__btn > span::before,
-nav .container .wrapper .hamburger-menu .menu__btn > span::after {
+  nav .container .wrapper .hamburger-menu .menu__btn > span::before,
+  nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -1387,7 +1387,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -1500,10 +1500,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
 @media screen and (max-width: 1559px) {
   main {
     /*top section*/
-    /*ourMission*/
-    /*ourProducts*/
-    /*My story*/
-    /*Our Farm*/
   }
   main .top_section .wrapper {
     width: 100%;
@@ -1619,12 +1615,15 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     height: 129px;
     background: none;
   }
-  main .ourMission {
-    margin-top: 85px;
+  main {
+    /*ourMission*/
   }
   main .ourMission .container {
     width: 1140px;
     margin: 0 auto;
+  }
+  main .ourMission {
+    margin-top: 85px;
   }
   main .ourMission h2 {
     font-style: normal;
@@ -1651,6 +1650,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   main .ourMission .contentHolder .contentHolder_span {
     margin-top: 90px;
+  }
+  main .ourMission .contentHolder .contentHolder_span img {
+    margin-left: 30px;
+    margin-right: 19px;
+  }
+  main .ourMission .contentHolder .contentHolder_span {
     display: block;
     width: 488px;
     background-color: #2B3966;
@@ -1661,10 +1666,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-  }
-  main .ourMission .contentHolder .contentHolder_span img {
-    margin-left: 30px;
-    margin-right: 19px;
   }
   main .ourMission .contentHolder .contentHolder_p {
     position: absolute;
@@ -1678,6 +1679,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #49A069;
+  }
+  main {
+    /*ourProducts*/
   }
   main .ourProducts .ourProducts_wrapper {
     width: 100%;
@@ -1823,6 +1827,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #49A069;
   }
+  main {
+    /*My story*/
+  }
   main .myStory .myStory_wrapper {
     width: 100%;
     background: linear-gradient(329deg, #2B3966 10%, #49A069 10%, #49A069 88%, #2B3966 15%);
@@ -1933,6 +1940,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     cursor: pointer;
     animation: shake 0.5s ease-in-out;
   }
+  main {
+    /*Our Farm*/
+  }
   main .ourFarm {
     margin-top: 85px;
   }
@@ -2010,21 +2020,58 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     background: url("../img/Vectorgrenphone.png") no-repeat left;
   }
   main .ourFarm .container .slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
     width: 800px;
-  }
-  main .ourFarm .container .slider div {
-    float: none;
-    list-style: none;
-    position: absolute;
-    width: 800px;
-    z-index: 50;
-    display: block;
-  }
-  main .ourFarm .container .slider div img {
     max-width: 100%;
+    scrollbar-width: thin;
   }
-  main .ourFarm .container .slider div img .bx-wrapper .bx-next {
-    background-color: #FFFFFF;
+  main .ourFarm .container .slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  main .ourFarm .container .farm-carousel__track {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: max-content;
+    min-width: 100%;
+  }
+  main .ourFarm .container .farm-carousel__slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+  main .ourFarm .container .farm-carousel__slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  main .ourFarm .container .farm-carousel__controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  main .ourFarm .container .farm-carousel__btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #49A069;
+    background: #FFFFFF;
+    color: #262728;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+  }
+  main .ourFarm .container .farm-carousel__btn:hover, main .ourFarm .container .farm-carousel__btn:focus-visible {
+    background: #f8f9fa;
+    outline: none;
   }
   main .ourFarm .ourFarmMap:hover .ourFarmContact {
     visibility: visible;
@@ -2033,10 +2080,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
 @media screen and (max-width: 1199px) {
   main {
     /*top section*/
-    /*ourMission*/
-    /*ourProducts*/
-    /*My story*/
-    /*Our Farm*/
   }
   main .top_section .wrapper {
     width: 100%;
@@ -2152,12 +2195,15 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     height: 129px;
     background: none;
   }
-  main .ourMission {
-    margin-top: 85px;
+  main {
+    /*ourMission*/
   }
   main .ourMission .container {
     width: 960px;
     margin: 0 auto;
+  }
+  main .ourMission {
+    margin-top: 85px;
   }
   main .ourMission h2 {
     font-style: normal;
@@ -2184,6 +2230,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   main .ourMission .contentHolder .contentHolder_span {
     margin-top: 80px;
+  }
+  main .ourMission .contentHolder .contentHolder_span img {
+    margin-left: 30px;
+    margin-right: 19px;
+  }
+  main .ourMission .contentHolder .contentHolder_span {
     display: block;
     width: 474px;
     background-color: #2B3966;
@@ -2194,10 +2246,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-  }
-  main .ourMission .contentHolder .contentHolder_span img {
-    margin-left: 30px;
-    margin-right: 19px;
   }
   main .ourMission .contentHolder .contentHolder_p {
     position: absolute;
@@ -2211,6 +2259,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #49A069;
+  }
+  main {
+    /*ourProducts*/
   }
   main .ourProducts .ourProducts_wrapper {
     width: 100%;
@@ -2356,6 +2407,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #49A069;
   }
+  main {
+    /*My story*/
+  }
   main .myStory .myStory_wrapper {
     width: 100%;
     background: linear-gradient(329deg, #2B3966 10%, #49A069 10%, #49A069 88%, #2B3966 15%);
@@ -2466,6 +2520,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     cursor: pointer;
     animation: shake 0.5s ease-in-out;
   }
+  main {
+    /*Our Farm*/
+  }
   main .ourFarm {
     margin-top: 85px;
   }
@@ -2543,21 +2600,58 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     background: url("../img/Vectorgrenphone.png") no-repeat left;
   }
   main .ourFarm .container .slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
     width: 800px;
-  }
-  main .ourFarm .container .slider div {
-    float: none;
-    list-style: none;
-    position: absolute;
-    width: 800px;
-    z-index: 50;
-    display: block;
-  }
-  main .ourFarm .container .slider div img {
     max-width: 100%;
+    scrollbar-width: thin;
   }
-  main .ourFarm .container .slider div img .bx-wrapper .bx-next {
-    background-color: #FFFFFF;
+  main .ourFarm .container .slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  main .ourFarm .container .farm-carousel__track {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: max-content;
+    min-width: 100%;
+  }
+  main .ourFarm .container .farm-carousel__slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+  main .ourFarm .container .farm-carousel__slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  main .ourFarm .container .farm-carousel__controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  main .ourFarm .container .farm-carousel__btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #49A069;
+    background: #FFFFFF;
+    color: #262728;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+  }
+  main .ourFarm .container .farm-carousel__btn:hover, main .ourFarm .container .farm-carousel__btn:focus-visible {
+    background: #f8f9fa;
+    outline: none;
   }
   main .ourFarm .ourFarmMap:hover .ourFarmContact {
     visibility: visible;
@@ -2566,10 +2660,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
 @media screen and (max-width: 991px) {
   main {
     /*top section*/
-    /*ourMission*/
-    /*ourProducts*/
-    /*My story*/
-    /*Our Farm*/
   }
   main .top_section .wrapper {
     width: 100%;
@@ -2686,12 +2776,15 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     height: 129px;
     background: none;
   }
-  main .ourMission {
-    margin-top: 85px;
+  main {
+    /*ourMission*/
   }
   main .ourMission .container {
     width: 720px;
     margin: 0 auto;
+  }
+  main .ourMission {
+    margin-top: 85px;
   }
   main .ourMission h2 {
     font-style: normal;
@@ -2721,6 +2814,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   main .ourMission .contentHolder .contentHolder_span {
     margin-top: 0;
+  }
+  main .ourMission .contentHolder .contentHolder_span img {
+    margin-left: 30px;
+    margin-right: 19px;
+  }
+  main .ourMission .contentHolder .contentHolder_span {
     display: block;
     width: 474px;
     background-color: #2B3966;
@@ -2731,10 +2830,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-  }
-  main .ourMission .contentHolder .contentHolder_span img {
-    margin-left: 30px;
-    margin-right: 19px;
   }
   main .ourMission .contentHolder .contentHolder_p {
     position: absolute;
@@ -2748,6 +2843,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #49A069;
+  }
+  main {
+    /*ourProducts*/
   }
   main .ourProducts .ourProducts_wrapper {
     width: 100%;
@@ -2900,6 +2998,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #49A069;
   }
+  main {
+    /*My story*/
+  }
   main .myStory .myStory_wrapper {
     width: 100%;
     background: linear-gradient(329deg, #2B3966 10%, #49A069 10%, #49A069 88%, #2B3966 15%);
@@ -3010,6 +3111,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     cursor: pointer;
     animation: shake 0.5s ease-in-out;
   }
+  main {
+    /*Our Farm*/
+  }
   main .ourFarm {
     margin-top: 85px;
   }
@@ -3087,21 +3191,58 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     background: url("../img/Vectorgrenphone.png") no-repeat left;
   }
   main .ourFarm .container .slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
     width: 800px;
-  }
-  main .ourFarm .container .slider div {
-    float: none;
-    list-style: none;
-    position: absolute;
-    width: 800px;
-    z-index: 50;
-    display: block;
-  }
-  main .ourFarm .container .slider div img {
     max-width: 100%;
+    scrollbar-width: thin;
   }
-  main .ourFarm .container .slider div img .bx-wrapper .bx-next {
-    background-color: #FFFFFF;
+  main .ourFarm .container .slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  main .ourFarm .container .farm-carousel__track {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: max-content;
+    min-width: 100%;
+  }
+  main .ourFarm .container .farm-carousel__slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+  main .ourFarm .container .farm-carousel__slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  main .ourFarm .container .farm-carousel__controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  main .ourFarm .container .farm-carousel__btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #49A069;
+    background: #FFFFFF;
+    color: #262728;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+  }
+  main .ourFarm .container .farm-carousel__btn:hover, main .ourFarm .container .farm-carousel__btn:focus-visible {
+    background: #f8f9fa;
+    outline: none;
   }
   main .ourFarm .ourFarmMap:hover .ourFarmContact {
     visibility: visible;
@@ -3110,10 +3251,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
 @media screen and (max-width: 767px) {
   main {
     /*top section*/
-    /*ourMission*/
-    /*ourProducts*/
-    /*My story*/
-    /*Our Farm*/
   }
   main .top_section .wrapper {
     width: 100%;
@@ -3236,12 +3373,15 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     height: 129px;
     background: none;
   }
-  main .ourMission {
-    margin-top: 85px;
+  main {
+    /*ourMission*/
   }
   main .ourMission .container {
     width: 540px;
     margin: 0 auto;
+  }
+  main .ourMission {
+    margin-top: 85px;
   }
   main .ourMission h2 {
     font-style: normal;
@@ -3271,6 +3411,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   main .ourMission .contentHolder .contentHolder_span {
     margin-top: 0;
+  }
+  main .ourMission .contentHolder .contentHolder_span img {
+    margin-left: 30px;
+    margin-right: 19px;
+  }
+  main .ourMission .contentHolder .contentHolder_span {
     display: block;
     width: 474px;
     background-color: #2B3966;
@@ -3281,10 +3427,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-  }
-  main .ourMission .contentHolder .contentHolder_span img {
-    margin-left: 30px;
-    margin-right: 19px;
   }
   main .ourMission .contentHolder .contentHolder_p {
     position: absolute;
@@ -3298,6 +3440,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #49A069;
+  }
+  main {
+    /*ourProducts*/
   }
   main .ourProducts .ourProducts_wrapper {
     width: 100%;
@@ -3452,6 +3597,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #49A069;
   }
+  main {
+    /*My story*/
+  }
   main .myStory .myStory_wrapper {
     width: 100%;
     background: linear-gradient(329deg, #2B3966 10%, #49A069 10%, #49A069 88%, #2B3966 15%);
@@ -3562,6 +3710,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     cursor: pointer;
     animation: shake 0.5s ease-in-out;
   }
+  main {
+    /*Our Farm*/
+  }
   main .ourFarm {
     margin-top: 85px;
   }
@@ -3639,21 +3790,58 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     background: url("../img/Vectorgrenphone.png") no-repeat left;
   }
   main .ourFarm .container .slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
     width: 800px;
-  }
-  main .ourFarm .container .slider div {
-    float: none;
-    list-style: none;
-    position: absolute;
-    width: 800px;
-    z-index: 50;
-    display: block;
-  }
-  main .ourFarm .container .slider div img {
     max-width: 100%;
+    scrollbar-width: thin;
   }
-  main .ourFarm .container .slider div img .bx-wrapper .bx-next {
-    background-color: #FFFFFF;
+  main .ourFarm .container .slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  main .ourFarm .container .farm-carousel__track {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: max-content;
+    min-width: 100%;
+  }
+  main .ourFarm .container .farm-carousel__slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+  main .ourFarm .container .farm-carousel__slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  main .ourFarm .container .farm-carousel__controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  main .ourFarm .container .farm-carousel__btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #49A069;
+    background: #FFFFFF;
+    color: #262728;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+  }
+  main .ourFarm .container .farm-carousel__btn:hover, main .ourFarm .container .farm-carousel__btn:focus-visible {
+    background: #f8f9fa;
+    outline: none;
   }
   main .ourFarm .ourFarmMap:hover .ourFarmContact {
     visibility: visible;
@@ -3662,10 +3850,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
 @media screen and (max-width: 575px) {
   main {
     /*top section*/
-    /*ourMission*/
-    /*ourProducts*/
-    /*My story*/
-    /*Our Farm*/
   }
   main .top_section .wrapper {
     width: 100%;
@@ -3789,12 +3973,15 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     height: 129px;
     background: none;
   }
-  main .ourMission {
-    margin-top: 85px;
+  main {
+    /*ourMission*/
   }
   main .ourMission .container {
     width: 300px;
     margin: 0 auto;
+  }
+  main .ourMission {
+    margin-top: 85px;
   }
   main .ourMission h2 {
     font-style: normal;
@@ -3825,6 +4012,14 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   main .ourMission .contentHolder .contentHolder_span {
     margin-top: 0;
+  }
+  main .ourMission .contentHolder .contentHolder_span img {
+    width: 18px;
+    height: 16px;
+    margin-left: 0;
+    margin-right: 19px;
+  }
+  main .ourMission .contentHolder .contentHolder_span {
     display: block;
     width: 280px;
     background-color: #2B3966;
@@ -3835,12 +4030,6 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-  }
-  main .ourMission .contentHolder .contentHolder_span img {
-    width: 18px;
-    height: 16px;
-    margin-left: 0;
-    margin-right: 19px;
   }
   main .ourMission .contentHolder .contentHolder_p {
     position: absolute;
@@ -3854,6 +4043,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background-color: #49A069;
+  }
+  main {
+    /*ourProducts*/
   }
   main .ourProducts .ourProducts_wrapper {
     width: 100%;
@@ -4009,6 +4201,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     letter-spacing: 0.02em;
     color: #49A069;
   }
+  main {
+    /*My story*/
+  }
   main .myStory .myStory_wrapper {
     width: 100%;
     background: linear-gradient(329deg, #2B3966 10%, #49A069 10%, #49A069 88%, #2B3966 15%);
@@ -4122,6 +4317,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     cursor: pointer;
     animation: shake 0.5s ease-in-out;
   }
+  main {
+    /*Our Farm*/
+  }
   main .ourFarm {
     margin-top: 85px;
   }
@@ -4199,25 +4397,60 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     background: url("../img/Vectorgrenphone.png") no-repeat left;
   }
   main .ourFarm .container .slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
     width: 800px;
-  }
-  main .ourFarm .container .slider div {
-    float: none;
-    list-style: none;
-    position: absolute;
-    width: 800px;
-    z-index: 50;
-    display: block;
-  }
-  main .ourFarm .container .slider div img {
     max-width: 100%;
+    scrollbar-width: thin;
   }
-  main .ourFarm .container .slider div img .bx-wrapper .bx-next {
-    background-color: #FFFFFF;
+  main .ourFarm .container .slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  main .ourFarm .container .farm-carousel__track {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: max-content;
+    min-width: 100%;
+  }
+  main .ourFarm .container .farm-carousel__slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+  }
+  main .ourFarm .container .farm-carousel__slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  main .ourFarm .container .farm-carousel__controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  main .ourFarm .container .farm-carousel__btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #49A069;
+    background: #FFFFFF;
+    color: #262728;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+  }
+  main .ourFarm .container .farm-carousel__btn:hover, main .ourFarm .container .farm-carousel__btn:focus-visible {
+    background: #f8f9fa;
+    outline: none;
   }
   main .ourFarm .ourFarmMap:hover .ourFarmContact {
     visibility: visible;
   }
 }
-
-/*# sourceMappingURL=mediaMain_style.css.map */

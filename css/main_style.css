@@ -173,7 +173,7 @@ footer .footer_mainFlex .footer_copyright svg {
   display: block;
   max-width: 100%;
   height: auto;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 8px;
   padding: 6px 10px;
   margin-top: 60px;
@@ -337,10 +337,6 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
 /*Main*/
 main {
   /*top section*/
-  /*ourMission*/
-  /*ourProducts*/
-  /*My story*/
-  /*Our Farm*/
 }
 main .top_section .wrapper {
   width: 100%;
@@ -456,12 +452,15 @@ main .top_section .flex_wrapper .two .elementThree {
   height: 129px;
   background: url("../img/topBlock_spritesheet.png") -754px -5px no-repeat;
 }
-main .ourMission {
-  margin-top: 85px;
+main {
+  /*ourMission*/
 }
 main .ourMission .container {
   width: 1560px;
   margin: 0 auto;
+}
+main .ourMission {
+  margin-top: 85px;
 }
 main .ourMission h2 {
   font-style: normal;
@@ -485,6 +484,12 @@ main .ourMission .contentHolder {
 }
 main .ourMission .contentHolder .contentHolder_span {
   margin-top: 133px;
+}
+main .ourMission .contentHolder .contentHolder_span img {
+  margin-left: 30px;
+  margin-right: 19px;
+}
+main .ourMission .contentHolder .contentHolder_span {
   display: block;
   width: 600px;
   background-color: #2B3966;
@@ -495,10 +500,6 @@ main .ourMission .contentHolder .contentHolder_span {
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-}
-main .ourMission .contentHolder .contentHolder_span img {
-  margin-left: 30px;
-  margin-right: 19px;
 }
 main .ourMission .contentHolder .contentHolder_p {
   position: absolute;
@@ -512,6 +513,9 @@ main .ourMission .contentHolder .contentHolder_p {
   letter-spacing: 0.02em;
   color: #FFFFFF;
   background-color: #49A069;
+}
+main {
+  /*ourProducts*/
 }
 main .ourProducts .ourProducts_wrapper {
   width: 100%;
@@ -654,6 +658,9 @@ main .ourProducts .ourProducts_itemFlex .ourProducts_item button {
   letter-spacing: 0.02em;
   color: #49A069;
 }
+main {
+  /*My story*/
+}
 main .myStory .myStory_wrapper {
   width: 100%;
   background: linear-gradient(329deg, #2B3966 10%, #49A069 10%, #49A069 88%, #2B3966 15%);
@@ -764,6 +771,9 @@ main .myStory .myStory_wrapper .container .myStory_content button:hover {
   cursor: pointer;
   animation: shake 0.5s ease-in-out;
 }
+main {
+  /*Our Farm*/
+}
 main .ourFarm {
   margin-top: 85px;
 }
@@ -781,6 +791,29 @@ main .ourFarm .container .ourFarm_flexWrapper .sliderWrapp {
   width: 42%;
   margin-top: 54px;
   margin-bottom: 100px;
+  position: relative;
+}
+main .ourFarm .container .ourFarm_flexWrapper .sliderWrapp .farm-carousel__controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+main .ourFarm .container .ourFarm_flexWrapper .sliderWrapp .farm-carousel__btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #49A069;
+  background: #FFFFFF;
+  color: #262728;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+}
+main .ourFarm .container .ourFarm_flexWrapper .sliderWrapp .farm-carousel__btn:hover, main .ourFarm .container .ourFarm_flexWrapper .sliderWrapp .farm-carousel__btn:focus-visible {
+  background: #f8f9fa;
+  outline: none;
 }
 main .ourFarm .container h2 {
   width: 100%;
@@ -841,24 +874,37 @@ main .ourFarm .container .ourFarmContact a {
   background: url("../img/Vectorgrenphone.png") no-repeat left;
 }
 main .ourFarm .container .slider {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
   width: 800px;
-}
-main .ourFarm .container .slider div {
-  float: none;
-  list-style: none;
-  position: absolute;
-  width: 800px;
-  z-index: 50;
-  display: block;
-}
-main .ourFarm .container .slider div img {
   max-width: 100%;
+  scrollbar-width: thin;
 }
-main .ourFarm .container .slider div img .bx-wrapper .bx-next {
-  background-color: #FFFFFF;
+main .ourFarm .container .slider::-webkit-scrollbar {
+  height: 8px;
 }
-main .ourFarm .ourFarmMap:hover .ourFarmContact {
+main .ourFarm .container .farm-carousel__track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: max-content;
+  min-width: 100%;
+}
+main .ourFarm .container .farm-carousel__slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  box-sizing: border-box;
+}
+main .ourFarm .container .farm-carousel__slide img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+main .ourFarm .container .ourFarmMap:hover .ourFarmContact {
   visibility: visible;
 }
-
-/*# sourceMappingURL=main_style.css.map */
