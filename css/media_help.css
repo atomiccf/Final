@@ -171,7 +171,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -437,7 +437,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -712,7 +712,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -909,9 +909,6 @@
     margin-left: 54px;
     width: 150px;
   }
-  nav .container .wrapper .hamburger-menu {
-    /* добавляем "гамбургер" */
-  }
   nav .container .wrapper .hamburger-menu .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center; /* центрируем содержимое кнопки */
@@ -923,9 +920,12 @@
     cursor: pointer;
     z-index: 4;
   }
+  nav .container .wrapper .hamburger-menu {
+    /* добавляем "гамбургер" */
+  }
   nav .container .wrapper .hamburger-menu .menu__btn > span,
-nav .container .wrapper .hamburger-menu .menu__btn > span::before,
-nav .container .wrapper .hamburger-menu .menu__btn > span::after {
+  nav .container .wrapper .hamburger-menu .menu__btn > span::before,
+  nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -1051,7 +1051,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -1260,8 +1260,8 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     z-index: 4;
   }
   nav .container .wrapper .hamburger-menu .menu__btn > span,
-nav .container .wrapper .hamburger-menu .menu__btn > span::before,
-nav .container .wrapper .hamburger-menu .menu__btn > span::after {
+  nav .container .wrapper .hamburger-menu .menu__btn > span::before,
+  nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -1387,7 +1387,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     display: block;
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 8px;
     padding: 6px 10px;
     margin-top: 60px;
@@ -1565,6 +1565,17 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+  .help_container form .help_form_flex > label[for=text] {
+    align-self: flex-start;
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #262728;
+  }
   .help_container form textarea {
     box-sizing: border-box;
     width: 97%;
@@ -1574,7 +1585,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
-  .help_container input[type=text] {
+  .help_container input[type=text],
+  .help_container input[type=tel],
+  .help_container input[type=email] {
     box-sizing: border-box;
     width: 350px;
     height: 50px;
@@ -1584,6 +1597,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     border: 1px solid #DADBDC;
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+  .help_container .help_field input[type=text],
+  .help_container .help_field input[type=tel],
+  .help_container .help_field input[type=email] {
+    margin-right: 0;
+    margin-bottom: 0;
   }
   .help_container #name {
     background: url("../img/Vector.png") no-repeat 1% 50%;
@@ -1602,6 +1621,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   .help_container .help_contact {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 16px 24px;
     margin-top: 30px;
   }
   .help_container input[type=submit] {
@@ -1690,6 +1712,17 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+  .help_container form .help_form_flex > label[for=text] {
+    align-self: flex-start;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #262728;
+  }
   .help_container form textarea {
     box-sizing: border-box;
     width: 97%;
@@ -1699,7 +1732,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
-  .help_container input[type=text] {
+  .help_container input[type=text],
+  .help_container input[type=tel],
+  .help_container input[type=email] {
     box-sizing: border-box;
     width: 282px;
     height: 50px;
@@ -1709,6 +1744,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     border: 1px solid #DADBDC;
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+  .help_container .help_field input[type=text],
+  .help_container .help_field input[type=tel],
+  .help_container .help_field input[type=email] {
+    margin-right: 0;
+    margin-bottom: 0;
   }
   .help_container #name {
     background: url("../img/Vector.png") no-repeat 1% 50%;
@@ -1727,6 +1768,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   .help_container .help_contact {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 16px 24px;
     margin-top: 30px;
   }
   .help_container input[type=submit] {
@@ -1815,6 +1859,17 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+  .help_container form .help_form_flex > label[for=text] {
+    align-self: flex-start;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #262728;
+  }
   .help_container form textarea {
     box-sizing: border-box;
     width: 97%;
@@ -1824,7 +1879,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
-  .help_container input[type=text] {
+  .help_container input[type=text],
+  .help_container input[type=tel],
+  .help_container input[type=email] {
     box-sizing: border-box;
     width: 208px;
     height: 50px;
@@ -1834,6 +1891,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     border: 1px solid #DADBDC;
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+  .help_container .help_field input[type=text],
+  .help_container .help_field input[type=tel],
+  .help_container .help_field input[type=email] {
+    margin-right: 0;
+    margin-bottom: 0;
   }
   .help_container #name {
     background: url("../img/Vector.png") no-repeat 1% 50%;
@@ -1852,6 +1915,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   }
   .help_container .help_contact {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 16px 24px;
     margin-top: 30px;
   }
   .help_container input[type=submit] {
@@ -1940,6 +2006,17 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+  .help_container form .help_form_flex > label[for=text] {
+    align-self: flex-start;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #262728;
+  }
   .help_container form textarea {
     box-sizing: border-box;
     width: 97%;
@@ -1949,7 +2026,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
-  .help_container input[type=text] {
+  .help_container input[type=text],
+  .help_container input[type=tel],
+  .help_container input[type=email] {
     box-sizing: border-box;
     width: 508px;
     height: 50px;
@@ -1959,6 +2038,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     border: 1px solid #DADBDC;
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+  .help_container .help_field input[type=text],
+  .help_container .help_field input[type=tel],
+  .help_container .help_field input[type=email] {
+    margin-right: 0;
+    margin-bottom: 0;
   }
   .help_container #name {
     background: url("../img/Vector.png") no-repeat 1% 50%;
@@ -1978,6 +2063,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   .help_container .help_contact {
     display: flex;
     flex-flow: column;
+    gap: 16px;
     margin-top: 30px;
   }
   .help_container input[type=submit] {
@@ -2066,6 +2152,17 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+  .help_container form .help_form_flex > label[for=text] {
+    align-self: flex-start;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 12px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #262728;
+  }
   .help_container form textarea {
     box-sizing: border-box;
     width: 97%;
@@ -2075,7 +2172,9 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
-  .help_container input[type=text] {
+  .help_container input[type=text],
+  .help_container input[type=tel],
+  .help_container input[type=email] {
     box-sizing: border-box;
     width: 289px;
     height: 50px;
@@ -2085,6 +2184,12 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     border: 1px solid #DADBDC;
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+  .help_container .help_field input[type=text],
+  .help_container .help_field input[type=tel],
+  .help_container .help_field input[type=email] {
+    margin-right: 0;
+    margin-bottom: 0;
   }
   .help_container #name {
     background: url("../img/Vector.png") no-repeat 1% 50%;
@@ -2104,6 +2209,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   .help_container .help_contact {
     display: flex;
     flex-flow: column;
+    gap: 16px;
     margin-top: 30px;
   }
   .help_container input[type=submit] {
@@ -2124,5 +2230,3 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
     border: 0;
   }
 }
-
-/*# sourceMappingURL=media_help.css.map */

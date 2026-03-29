@@ -395,6 +395,18 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
   flex-direction: column;
   align-items: center;
 }
+.help_container form .help_form_flex > label[for=text] {
+  align-self: flex-start;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding-left: 34px;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #262728;
+}
 .help_container form .help_form_flex textarea {
   box-sizing: border-box;
   width: 95%;
@@ -413,7 +425,9 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
   box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
-.help_container input[type=text] {
+.help_container input[type=text],
+.help_container input[type=tel],
+.help_container input[type=email] {
   box-sizing: border-box;
   width: 350px;
   height: 50px;
@@ -423,6 +437,12 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
   border: 1px solid #DADBDC;
   box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+.help_container .help_field input[type=text],
+.help_container .help_field input[type=tel],
+.help_container .help_field input[type=email] {
+  margin-right: 0;
+  margin-bottom: 0;
 }
 .help_container #name {
   background: url("../img/Vector.png") no-repeat 1% 50%;
@@ -444,7 +464,7 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
   margin-top: 30px;
   align-items: flex-end;
   flex-wrap: wrap;
-  gap: 0 10px;
+  gap: 16px 24px;
 }
 .help_container .help_field {
   display: flex;
@@ -461,15 +481,6 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
 }
 .help_container .help_field:nth-child(2) label, .help_container .help_field:nth-child(3) label {
   margin-left: 0;
-}
-.help_container .help_form_flex > label[for=text] {
-  align-self: flex-start;
-  width: 95%;
-  margin-top: 10px;
-  font-size: 12px;
-  line-height: 160%;
-  letter-spacing: 0.02em;
-  color: #262728;
 }
 .help_container input[type=submit] {
   width: 270px;
