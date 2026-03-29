@@ -91,6 +91,18 @@
           box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
           border-radius: 10px;
         }
+
+        > label[for="text"] {
+          align-self: flex-start;
+          width: 97%;
+          margin-top: 10px;
+          margin-bottom: 8px;
+          font-family: $gothamPro;
+          font-size: 12px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+        }
       }
 
       textarea {
@@ -105,7 +117,9 @@
       }
     }
 
-    input[type="text"] {
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
       box-sizing: border-box;
       width: 350px;
       height: 50px;
@@ -115,15 +129,13 @@
       border: 1px solid $iron;
       box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+    }
 
-
-
-      &:nth-child(3){
-
-
-
-
-      }
+    .help_field input[type="text"],
+    .help_field input[type="tel"],
+    .help_field input[type="email"] {
+      margin-right: 0;
+      margin-bottom: 0;
     }
 
     #name{
@@ -149,9 +161,10 @@
 
     .help_contact{
       display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: 16px 24px;
       margin-top: 30px;
-
-
     }
 
 
@@ -276,6 +289,18 @@
           box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
           border-radius: 10px;
         }
+
+        > label[for="text"] {
+          align-self: flex-start;
+          width: 95%;
+          margin-top: 10px;
+          margin-bottom: 8px;
+          font-family: $gothamPro;
+          font-size: 12px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+        }
       }
 
       textarea {
@@ -290,7 +315,9 @@
       }
     }
 
-    input[type="text"] {
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
       box-sizing: border-box;
       width: 282px;
       height: 50px;
@@ -300,15 +327,13 @@
       border: 1px solid $iron;
       box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+    }
 
-
-
-      &:nth-child(3){
-
-
-
-
-      }
+    .help_field input[type="text"],
+    .help_field input[type="tel"],
+    .help_field input[type="email"] {
+      margin-right: 0;
+      margin-bottom: 0;
     }
 
     #name{
@@ -334,9 +359,10 @@
 
     .help_contact{
       display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: 16px 24px;
       margin-top: 30px;
-
-
     }
 
 
@@ -460,6 +486,18 @@
           box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
           border-radius: 10px;
         }
+
+        > label[for="text"] {
+          align-self: flex-start;
+          width: 95%;
+          margin-top: 10px;
+          margin-bottom: 8px;
+          font-family: $gothamPro;
+          font-size: 12px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+        }
       }
 
       textarea {
@@ -474,7 +512,9 @@
       }
     }
 
-    input[type="text"] {
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
       box-sizing: border-box;
       width: 208px;
       height: 50px;
@@ -484,15 +524,13 @@
       border: 1px solid $iron;
       box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+    }
 
-
-
-      &:nth-child(3){
-
-
-
-
-      }
+    .help_field input[type="text"],
+    .help_field input[type="tel"],
+    .help_field input[type="email"] {
+      margin-right: 0;
+      margin-bottom: 0;
     }
 
     #name{
@@ -518,9 +556,10 @@
 
     .help_contact{
       display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: 16px 24px;
       margin-top: 30px;
-
-
     }
 
 
@@ -645,6 +684,18 @@
           box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
           border-radius: 10px;
         }
+
+        > label[for="text"] {
+          align-self: flex-start;
+          width: 95%;
+          margin-top: 10px;
+          margin-bottom: 8px;
+          font-family: $gothamPro;
+          font-size: 12px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+        }
       }
 
       textarea {
@@ -658,7 +709,9 @@
       }
     }
 
-    input[type="text"] {
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
       box-sizing: border-box;
       width: 508px;
       height: 50px;
@@ -668,15 +721,13 @@
       border: 1px solid $iron;
       box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+    }
 
-
-
-      &:nth-child(3){
-
-
-
-
-      }
+    .help_field input[type="text"],
+    .help_field input[type="tel"],
+    .help_field input[type="email"] {
+      margin-right: 0;
+      margin-bottom: 0;
     }
 
     #name{
@@ -703,9 +754,8 @@
     .help_contact{
       display: flex;
       flex-flow: column;
+      gap: 16px;
       margin-top: 30px;
-
-
     }
 
 
@@ -828,6 +878,18 @@
           box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
           border-radius: 10px;
         }
+
+        > label[for="text"] {
+          align-self: flex-start;
+          width: 95%;
+          margin-top: 10px;
+          margin-bottom: 8px;
+          font-family: $gothamPro;
+          font-size: 12px;
+          line-height: 160%;
+          letter-spacing: 0.02em;
+          color: $shark;
+        }
       }
 
       textarea {
@@ -841,7 +903,9 @@
       }
     }
 
-    input[type="text"] {
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"] {
       box-sizing: border-box;
       width: 289px;
       height: 50px;
@@ -851,15 +915,13 @@
       border: 1px solid $iron;
       box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+    }
 
-
-
-      &:nth-child(3){
-
-
-
-
-      }
+    .help_field input[type="text"],
+    .help_field input[type="tel"],
+    .help_field input[type="email"] {
+      margin-right: 0;
+      margin-bottom: 0;
     }
 
     #name{
@@ -886,9 +948,8 @@
     .help_contact{
       display: flex;
       flex-flow: column;
+      gap: 16px;
       margin-top: 30px;
-
-
     }
 
 
