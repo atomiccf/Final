@@ -665,13 +665,10 @@ main{
       margin: 0;
       padding: 0;
       list-style: none;
-      width: max-content;
-      min-width: 100%;
     }
 
     .farm-carousel__slide {
-      flex: 0 0 100%;
-      min-width: 100%;
+      flex: 0 0 auto;
       scroll-snap-align: start;
       box-sizing: border-box;
 
