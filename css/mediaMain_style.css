@@ -1750,7 +1750,7 @@
   main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  main .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -2330,7 +2330,7 @@
   main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  main .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -2921,7 +2921,7 @@
   main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  main .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -3520,7 +3520,7 @@
   main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  main .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -4124,7 +4124,7 @@
   main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  main .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
