@@ -2,9 +2,6 @@
 @import url(fontStyle_regular.css);
 @import url(fontStyle_bold.css);
 @import url(fontStyle_extrabold.css);
-@import url(fontStyle_regular.css);
-@import url(fontStyle_bold.css);
-@import url(fontStyle_extrabold.css);
 @media screen and (max-width: 1559px) {
   /*header*/
   .top_line {
@@ -120,7 +117,7 @@
     background: none;
   }
   nav .container .wrapper ul li:hover {
-    color: #49A069;
+    color: #247849;
   }
   nav .container .wrapper .cart {
     position: absolute;
@@ -136,7 +133,7 @@
     top: 50px;
     width: 170px;
     height: 50px;
-    background: #49A069;
+    background: #247849;
     border: 0;
     border-radius: 100px;
     font-family: "Gotham Pro", sans-serif;
@@ -184,8 +181,7 @@
     font-size: 14px;
     line-height: 200%;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #B4C4DC;
   }
   footer .footer_mainFlex .footer_menuOne ul {
     margin-top: 53px;
@@ -199,8 +195,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuOne ul li a {
     width: 189px;
@@ -224,8 +219,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuTwo ul li a {
     font-family: "Gotham Pro", sans-serif;
@@ -248,8 +242,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_socialMenu ul li:nth-child(2) {
     display: flex;
@@ -390,7 +383,7 @@
     background: none;
   }
   nav .container .wrapper ul li:hover {
-    color: #49A069;
+    color: #247849;
   }
   nav .container .wrapper .cart {
     left: 721px;
@@ -402,7 +395,7 @@
     left: 788px;
     width: 170px;
     height: 50px;
-    background: #49A069;
+    background: #247849;
     border: 0;
     border-radius: 100px;
     font-family: "Gotham Pro", sans-serif;
@@ -450,8 +443,7 @@
     font-size: 14px;
     line-height: 200%;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #B4C4DC;
   }
   footer .footer_mainFlex .footer_menuOne ul {
     margin-top: 53px;
@@ -465,8 +457,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuOne ul li a {
     width: 189px;
@@ -490,8 +481,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuTwo ul li a {
     font-family: "Gotham Pro", sans-serif;
@@ -514,8 +504,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_socialMenu ul li:nth-child(2) {
     display: flex;
@@ -662,7 +651,7 @@
     background: none;
   }
   nav .container .wrapper ul li:hover {
-    color: #49A069;
+    color: #247849;
   }
   nav .container .wrapper .cart {
     margin-top: 0;
@@ -677,7 +666,7 @@
     left: 244px;
     width: 170px;
     height: 50px;
-    background: #49A069;
+    background: #247849;
     border: 0;
     border-radius: 100px;
     font-family: "Gotham Pro", sans-serif;
@@ -725,8 +714,7 @@
     font-size: 14px;
     line-height: 200%;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #B4C4DC;
   }
   footer .footer_mainFlex .footer_menuOne ul {
     margin-top: 66px;
@@ -740,8 +728,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuOne ul li a {
     width: 189px;
@@ -765,8 +752,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuTwo ul li a {
     font-family: "Gotham Pro", sans-serif;
@@ -790,8 +776,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_socialMenu ul li:nth-child(2) {
     display: flex;
@@ -930,7 +915,7 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #49A069;
+    background-color: #247849;
     transition-duration: 1.4s;
   }
   nav .container .wrapper .hamburger-menu .menu__btn > span::before {
@@ -1001,7 +986,7 @@
     margin-top: 0;
   }
   nav .container .wrapper ul li:hover {
-    color: #49A069;
+    color: #247849;
   }
   nav .container .wrapper .cart {
     top: 15px;
@@ -1016,7 +1001,7 @@
     left: 64px;
     width: 170px;
     height: 50px;
-    background: #49A069;
+    background: #247849;
     border: 0;
     border-radius: 100px;
     font-family: "Gotham Pro", sans-serif;
@@ -1064,8 +1049,7 @@
     font-size: 14px;
     line-height: 200%;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #B4C4DC;
   }
   footer .footer_mainFlex .footer_menuOne ul {
     margin-top: 53px;
@@ -1079,8 +1063,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuOne ul li a {
     width: 189px;
@@ -1104,8 +1087,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuTwo ul li a {
     font-family: "Gotham Pro", sans-serif;
@@ -1128,8 +1110,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_socialMenu ul li:nth-child(2) {
     display: flex;
@@ -1266,7 +1247,7 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #49A069;
+    background-color: #247849;
     transition-duration: 0.4s;
   }
   nav .container .wrapper .hamburger-menu .menu__btn > span::before {
@@ -1337,7 +1318,7 @@
     margin-top: 0;
   }
   nav .container .wrapper ul li:hover {
-    color: #49A069;
+    color: #247849;
   }
   nav .container .wrapper .cart {
     top: 15px;
@@ -1352,7 +1333,7 @@
     left: 0;
     width: 170px;
     height: 50px;
-    background: #49A069;
+    background: #247849;
     border: 0;
     border-radius: 100px;
     font-family: "Gotham Pro", sans-serif;
@@ -1400,8 +1381,7 @@
     font-size: 14px;
     line-height: 200%;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #B4C4DC;
   }
   footer .footer_mainFlex .footer_menuOne ul {
     margin-top: 53px;
@@ -1415,8 +1395,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuOne ul li a {
     width: 189px;
@@ -1440,8 +1419,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_menuTwo ul li a {
     font-family: "Gotham Pro", sans-serif;
@@ -1467,8 +1445,7 @@
     line-height: 160%;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
+    color: #D5DEEA;
   }
   footer .footer_mainFlex .footer_socialMenu ul li:nth-child(2) {
     display: flex;

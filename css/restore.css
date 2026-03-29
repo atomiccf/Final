@@ -1,13 +1,7 @@
 @import url(fontStyle_regular.css);
 @import url(fontStyle_bold.css);
 @import url(fontStyle_extrabold.css);
-@import url(fontStyle_regular.css);
-@import url(fontStyle_bold.css);
-@import url(fontStyle_extrabold.css);
 /*header*/
-@import url(fontStyle_regular.css);
-@import url(fontStyle_bold.css);
-@import url(fontStyle_extrabold.css);
 .top_line {
   width: 100%;
   height: 50px;
@@ -120,7 +114,7 @@ nav .container .wrapper ul li a {
   color: #262728;
 }
 nav .container .wrapper ul li a:hover {
-  color: #49A069;
+  color: #247849;
 }
 nav .container .wrapper ul li:last-child {
   background: none;
@@ -137,7 +131,7 @@ nav .container .wrapper .cart {
 nav .container .wrapper button {
   width: 170px;
   height: 50px;
-  background: #49A069;
+  background: #247849;
   border: 0;
   border-radius: 100px;
   font-family: "Gotham Pro", sans-serif;
@@ -186,8 +180,7 @@ footer .footer_mainFlex .footer_copyright p {
   font-size: 14px;
   line-height: 200%;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #B4C4DC;
 }
 footer .footer_mainFlex .footer_menuOne ul {
   margin-top: 53px;
@@ -201,8 +194,7 @@ footer .footer_mainFlex .footer_menuOne ul li:nth-child(1) {
   line-height: 160%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #D5DEEA;
 }
 footer .footer_mainFlex .footer_menuOne ul li a {
   width: 189px;
@@ -226,8 +218,7 @@ footer .footer_mainFlex .footer_menuTwo ul li:nth-child(1) {
   line-height: 160%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #D5DEEA;
 }
 footer .footer_mainFlex .footer_menuTwo ul li a {
   font-family: "Gotham Pro", sans-serif;
@@ -250,8 +241,7 @@ footer .footer_mainFlex .footer_socialMenu ul li:nth-child(1) {
   line-height: 160%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #D5DEEA;
 }
 footer .footer_mainFlex .footer_socialMenu ul li:nth-child(2) {
   display: flex;
@@ -411,7 +401,7 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
   color: #262728;
 }
 .Restore .Restore_itemFlex .Restore_item > p span {
-  color: #49A069;
+  color: #247849;
 }
 .Restore .Restore_itemFlex .Restore_item:last-child {
   margin-right: 0;
