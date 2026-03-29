@@ -335,7 +335,7 @@
 
             }
           }
-          img[alt="glass with milk"]{
+          img.ourProducts_glass {
             position: absolute;
             bottom: 110px;
             right: 68px;
@@ -343,6 +343,9 @@
             height: 170px;
             z-index: 1;
 
+          }
+          picture {
+            display: contents;
           }
           #clover{
             position: absolute;
@@ -626,15 +629,19 @@
         }
 
         .slider {
+          container-type: inline-size;
+          container-name: farm-carousel;
           overflow-x: auto;
           scroll-snap-type: x mandatory;
           scroll-behavior: smooth;
           -webkit-overflow-scrolling: touch;
           width: 800px;
           max-width: 100%;
-          scrollbar-width: thin;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
           &::-webkit-scrollbar {
-            height: 8px;
+            display: none;
+            height: 0;
           }
         }
 
@@ -648,9 +655,11 @@
         }
 
         .farm-carousel__slide {
-          flex: 0 0 100%;
-          min-width: 100%;
+          flex: 0 0 100cqi;
+          min-width: 100cqi;
+          max-width: 100cqi;
           scroll-snap-align: start;
+          scroll-snap-stop: always;
           box-sizing: border-box;
 
           img {
@@ -1044,7 +1053,7 @@
 
             }
           }
-          img[alt="glass with milk"]{
+          img.ourProducts_glass {
             position: absolute;
             bottom: 110px;
             right: 68px;
@@ -1052,6 +1061,9 @@
             height: 170px;
             z-index: 1;
 
+          }
+          picture {
+            display: contents;
           }
           #clover{
             position: absolute;
@@ -1335,15 +1347,19 @@
         }
 
         .slider {
+          container-type: inline-size;
+          container-name: farm-carousel;
           overflow-x: auto;
           scroll-snap-type: x mandatory;
           scroll-behavior: smooth;
           -webkit-overflow-scrolling: touch;
           width: 800px;
           max-width: 100%;
-          scrollbar-width: thin;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
           &::-webkit-scrollbar {
-            height: 8px;
+            display: none;
+            height: 0;
           }
         }
 
@@ -1357,9 +1373,11 @@
         }
 
         .farm-carousel__slide {
-          flex: 0 0 100%;
-          min-width: 100%;
+          flex: 0 0 100cqi;
+          min-width: 100cqi;
+          max-width: 100cqi;
           scroll-snap-align: start;
+          scroll-snap-stop: always;
           box-sizing: border-box;
 
           img {
@@ -1772,7 +1790,7 @@
 
             }
           }
-          img[alt="glass with milk"]{
+          img.ourProducts_glass {
             position: absolute;
             bottom: 110px;
             right: 68px;
@@ -1780,6 +1798,9 @@
             height: 170px;
             z-index: 1;
 
+          }
+          picture {
+            display: contents;
           }
           #clover{
             position: absolute;
@@ -2064,15 +2085,19 @@
         }
 
         .slider {
+          container-type: inline-size;
+          container-name: farm-carousel;
           overflow-x: auto;
           scroll-snap-type: x mandatory;
           scroll-behavior: smooth;
           -webkit-overflow-scrolling: touch;
           width: 800px;
           max-width: 100%;
-          scrollbar-width: thin;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
           &::-webkit-scrollbar {
-            height: 8px;
+            display: none;
+            height: 0;
           }
         }
 
@@ -2086,9 +2111,11 @@
         }
 
         .farm-carousel__slide {
-          flex: 0 0 100%;
-          min-width: 100%;
+          flex: 0 0 100cqi;
+          min-width: 100cqi;
+          max-width: 100cqi;
           scroll-snap-align: start;
+          scroll-snap-stop: always;
           box-sizing: border-box;
 
           img {
@@ -2513,7 +2540,7 @@
 
             }
           }
-          img[alt="glass with milk"]{
+          img.ourProducts_glass {
             position: absolute;
             bottom: 110px;
             right: 68px;
@@ -2521,6 +2548,9 @@
             height: 170px;
             z-index: 1;
 
+          }
+          picture {
+            display: contents;
           }
           #clover{
             position: absolute;
@@ -2805,15 +2835,19 @@
         }
 
         .slider {
+          container-type: inline-size;
+          container-name: farm-carousel;
           overflow-x: auto;
           scroll-snap-type: x mandatory;
           scroll-behavior: smooth;
           -webkit-overflow-scrolling: touch;
           width: 800px;
           max-width: 100%;
-          scrollbar-width: thin;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
           &::-webkit-scrollbar {
-            height: 8px;
+            display: none;
+            height: 0;
           }
         }
 
@@ -2827,9 +2861,11 @@
         }
 
         .farm-carousel__slide {
-          flex: 0 0 100%;
-          min-width: 100%;
+          flex: 0 0 100cqi;
+          min-width: 100cqi;
+          max-width: 100cqi;
           scroll-snap-align: start;
+          scroll-snap-stop: always;
           box-sizing: border-box;
 
           img {
@@ -3261,7 +3297,7 @@
 
             }
           }
-          img[alt="glass with milk"]{
+          img.ourProducts_glass {
             position: absolute;
             bottom: 110px;
             right: 68px;
@@ -3269,6 +3305,9 @@
             height: 170px;
             z-index: 1;
 
+          }
+          picture {
+            display: contents;
           }
           #clover{
             position: absolute;
@@ -3556,15 +3595,19 @@
         }
 
         .slider {
+          container-type: inline-size;
+          container-name: farm-carousel;
           overflow-x: auto;
           scroll-snap-type: x mandatory;
           scroll-behavior: smooth;
           -webkit-overflow-scrolling: touch;
           width: 800px;
           max-width: 100%;
-          scrollbar-width: thin;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
           &::-webkit-scrollbar {
-            height: 8px;
+            display: none;
+            height: 0;
           }
         }
 
@@ -3578,9 +3621,11 @@
         }
 
         .farm-carousel__slide {
-          flex: 0 0 100%;
-          min-width: 100%;
+          flex: 0 0 100cqi;
+          min-width: 100cqi;
+          max-width: 100cqi;
           scroll-snap-align: start;
+          scroll-snap-stop: always;
           box-sizing: border-box;
 
           img {

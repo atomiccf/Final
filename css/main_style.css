@@ -604,13 +604,16 @@ main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 {
 main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
   color: #49A069;
 }
-main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+main .ourProducts .ourProducts_itemFlex .ourProducts_item img.ourProducts_glass {
   position: absolute;
   bottom: 110px;
   right: 68px;
   width: 137px;
   height: 170px;
   z-index: 1;
+}
+main .ourProducts .ourProducts_itemFlex .ourProducts_item picture {
+  display: contents;
 }
 main .ourProducts .ourProducts_itemFlex .ourProducts_item #clover {
   position: absolute;
@@ -874,16 +877,20 @@ main .ourFarm .container .ourFarmContact a {
   background: url("../img/Vectorgrenphone.png") no-repeat left;
 }
 main .ourFarm .container .slider {
+  container-type: inline-size;
+  container-name: farm-carousel;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   width: 800px;
   max-width: 100%;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 main .ourFarm .container .slider::-webkit-scrollbar {
-  height: 8px;
+  display: none;
+  height: 0;
 }
 main .ourFarm .container .farm-carousel__track {
   display: flex;
@@ -894,9 +901,11 @@ main .ourFarm .container .farm-carousel__track {
   min-width: 100%;
 }
 main .ourFarm .container .farm-carousel__slide {
-  flex: 0 0 100%;
-  min-width: 100%;
+  flex: 0 0 100cqi;
+  min-width: 100cqi;
+  max-width: 100cqi;
   scroll-snap-align: start;
+  scroll-snap-stop: always;
   box-sizing: border-box;
 }
 main .ourFarm .container .farm-carousel__slide img {
