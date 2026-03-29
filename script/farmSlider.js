@@ -1,13 +1,13 @@
 (function () {
-  var root = document.querySelector('.farm-carousel');
+  const root = document.querySelector('.farm-carousel');
   if (!root) return;
 
-  var viewport = root.querySelector('.farm-carousel__viewport');
-  var prev = root.querySelector('.farm-carousel__btn--prev');
-  var next = root.querySelector('.farm-carousel__btn--next');
+  const viewport = root.querySelector('.farm-carousel__viewport');
+  const prev = root.querySelector('.farm-carousel__btn--prev');
+  const next = root.querySelector('.farm-carousel__btn--next');
   if (!viewport || !prev || !next) return;
 
-  var slides = viewport.querySelectorAll('.farm-carousel__slide');
+  const slides = viewport.querySelectorAll('.farm-carousel__slide');
   if (!slides.length) return;
 
   function slideWidth() {
@@ -16,8 +16,8 @@
 
   /** Pixel widths so scrollWidth exceeds clientWidth (flex % + max-content breaks horizontal scroll). */
   function layoutSlides() {
-    var w = slideWidth();
-    for (var i = 0; i < slides.length; i++) {
+    const w = slideWidth();
+    for (let i = 0; i < slides.length; i++) {
       slides[i].style.flex = '0 0 ' + w + 'px';
       slides[i].style.minWidth = w + 'px';
       slides[i].style.maxWidth = w + 'px';
@@ -39,8 +39,8 @@
   window.addEventListener('resize', layoutSlides);
 
   if (typeof ResizeObserver !== 'undefined') {
-    var ro = new ResizeObserver(layoutSlides);
-    ro.observe(viewport);
+    const resizeObserver = new ResizeObserver(layoutSlides);
+    resizeObserver.observe(viewport);
   }
 
   window.addEventListener('load', layoutSlides);
