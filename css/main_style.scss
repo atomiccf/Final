@@ -58,9 +58,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family:$gothamPro;
-  font-size:$normal;
-
-
+  /* $normal is font-weight (400), not font-size */
+  font-size: $fontSizeBase;
 }
 
 
@@ -220,8 +219,16 @@ main{
       margin-left: 190px;
     }
 
+    .flex_wrapper #family {
+      width: 450px;
+      max-width: 50%;
+      height: auto;
+      flex-shrink: 0;
+    }
+
     .contentHolder{
       width: 50%;
+      position: relative;
       .contentHolder_span{
         margin-top: 133px;
 
@@ -355,7 +362,7 @@ main{
         }
       }
 
-          img[alt="glass with milk"]{
+          .ourProducts_glass{
             position: absolute;
             bottom: 110px;
             right: 68px;

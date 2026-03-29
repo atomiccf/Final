@@ -321,7 +321,7 @@ footer .footer_mainFlex .footer_socialMenu ul a:nth-child(4) {
   padding: 0;
   box-sizing: border-box;
   font-family: "Gotham Pro", sans-serif;
-  font-size: 400;
+  font-size: 16px;
 }
 
 /*Main*/
@@ -469,8 +469,15 @@ main .ourMission .flex_wrapper {
   margin-top: 53px;
   margin-left: 190px;
 }
+main .ourMission .flex_wrapper #family {
+  width: 450px;
+  max-width: 50%;
+  height: auto;
+  flex-shrink: 0;
+}
 main .ourMission .contentHolder {
   width: 50%;
+  position: relative;
 }
 main .ourMission .contentHolder .contentHolder_span {
   margin-top: 133px;
@@ -594,7 +601,7 @@ main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 {
 main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
   color: #247849;
 }
-main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+main .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
   position: absolute;
   bottom: 110px;
   right: 68px;

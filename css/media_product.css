@@ -1566,7 +1566,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -1721,7 +1721,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -1876,7 +1876,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -2031,7 +2031,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
@@ -2186,7 +2186,7 @@ nav .container .wrapper .hamburger-menu .menu__btn > span::after {
   .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
     color: #247849;
   }
-  .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+  .ourProducts .ourProducts_itemFlex .ourProducts_item .ourProducts_glass {
     position: absolute;
     bottom: 110px;
     right: 68px;
