@@ -457,13 +457,16 @@ nav ul li:hover {
 .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
   color: #49A069;
 }
-.ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
+.ourProducts .ourProducts_itemFlex .ourProducts_item img.ourProducts_glass {
   position: absolute;
   bottom: 110px;
   right: 68px;
   width: 137px;
   height: 170px;
   z-index: 1;
+}
+.ourProducts .ourProducts_itemFlex .ourProducts_item picture {
+  display: contents;
 }
 .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="measure glass"] {
   position: absolute;
