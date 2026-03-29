@@ -203,7 +203,14 @@ footer{
     flex-flow: row;
     justify-content: space-evenly;
     .footer_copyright{
+      img,
       svg{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        background-color: $white;
+        border-radius: 8px;
+        padding: 6px 10px;
         margin-top: 60px;
         margin-bottom: 110px;
       }
@@ -233,9 +240,6 @@ footer{
             text-transform: uppercase;
             color: $white;
             opacity: 0.5;
-
-
-
           }
 
           a {
