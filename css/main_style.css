@@ -1,13 +1,7 @@
 @import url(fontStyle_regular.css);
 @import url(fontStyle_bold.css);
 @import url(fontStyle_extrabold.css);
-@import url(fontStyle_regular.css);
-@import url(fontStyle_bold.css);
-@import url(fontStyle_extrabold.css);
 /*header*/
-@import url(fontStyle_regular.css);
-@import url(fontStyle_bold.css);
-@import url(fontStyle_extrabold.css);
 .top_line {
   width: 100%;
   height: 50px;
@@ -120,7 +114,7 @@ nav .container .wrapper ul li a {
   color: #262728;
 }
 nav .container .wrapper ul li a:hover {
-  color: #49A069;
+  color: #247849;
 }
 nav .container .wrapper ul li:last-child {
   background: none;
@@ -137,7 +131,7 @@ nav .container .wrapper .cart {
 nav .container .wrapper button {
   width: 170px;
   height: 50px;
-  background: #49A069;
+  background: #247849;
   border: 0;
   border-radius: 100px;
   font-family: "Gotham Pro", sans-serif;
@@ -186,8 +180,7 @@ footer .footer_mainFlex .footer_copyright p {
   font-size: 14px;
   line-height: 200%;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #B4C4DC;
 }
 footer .footer_mainFlex .footer_menuOne ul {
   margin-top: 53px;
@@ -201,8 +194,7 @@ footer .footer_mainFlex .footer_menuOne ul li:nth-child(1) {
   line-height: 160%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #D5DEEA;
 }
 footer .footer_mainFlex .footer_menuOne ul li a {
   width: 189px;
@@ -226,8 +218,7 @@ footer .footer_mainFlex .footer_menuTwo ul li:nth-child(1) {
   line-height: 160%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #D5DEEA;
 }
 footer .footer_mainFlex .footer_menuTwo ul li a {
   font-family: "Gotham Pro", sans-serif;
@@ -250,8 +241,7 @@ footer .footer_mainFlex .footer_socialMenu ul li:nth-child(1) {
   line-height: 160%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.5;
+  color: #D5DEEA;
 }
 footer .footer_mainFlex .footer_socialMenu ul li:nth-child(2) {
   display: flex;
@@ -341,7 +331,7 @@ main {
 main .top_section .wrapper {
   width: 100%;
   height: 572px;
-  background: linear-gradient(329deg, #2B3966 15%, #49A069 15%, #49A069 86%, #2B3966 15%);
+  background: linear-gradient(329deg, #2B3966 15%, #247849 15%, #247849 86%, #2B3966 15%);
 }
 main .top_section .container {
   width: 1560px;
@@ -512,7 +502,7 @@ main .ourMission .contentHolder .contentHolder_p {
   line-height: 160%;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  background-color: #49A069;
+  background-color: #247849;
 }
 main {
   /*ourProducts*/
@@ -550,7 +540,7 @@ main .ourProducts .ourProducts_mainFlex form .ourProducts_buttonAll {
   margin-bottom: 100px;
   width: 270px;
   height: 50px;
-  background: #49A069;
+  background: #247849;
   border-radius: 100px;
   border: 0;
   font-family: "Gotham Pro", sans-serif;
@@ -602,18 +592,15 @@ main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 {
   color: #262728;
 }
 main .ourProducts .ourProducts_itemFlex .ourProducts_item h3 span {
-  color: #49A069;
+  color: #247849;
 }
-main .ourProducts .ourProducts_itemFlex .ourProducts_item img.ourProducts_glass {
+main .ourProducts .ourProducts_itemFlex .ourProducts_item img[alt="glass with milk"] {
   position: absolute;
   bottom: 110px;
   right: 68px;
   width: 137px;
   height: 170px;
   z-index: 1;
-}
-main .ourProducts .ourProducts_itemFlex .ourProducts_item picture {
-  display: contents;
 }
 main .ourProducts .ourProducts_itemFlex .ourProducts_item #clover {
   position: absolute;
@@ -649,7 +636,7 @@ main .ourProducts .ourProducts_itemFlex .ourProducts_item button {
   right: 25px;
   width: 220px;
   height: 40px;
-  border: 1px solid #49A069;
+  border: 1px solid #247849;
   border-radius: 100px;
   background: #FFFFFF;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
@@ -659,14 +646,14 @@ main .ourProducts .ourProducts_itemFlex .ourProducts_item button {
   font-size: 16px;
   line-height: 160%;
   letter-spacing: 0.02em;
-  color: #49A069;
+  color: #247849;
 }
 main {
   /*My story*/
 }
 main .myStory .myStory_wrapper {
   width: 100%;
-  background: linear-gradient(329deg, #2B3966 10%, #49A069 10%, #49A069 88%, #2B3966 15%);
+  background: linear-gradient(329deg, #2B3966 10%, #247849 10%, #247849 88%, #2B3966 15%);
 }
 main .myStory .myStory_wrapper .container {
   width: 1560px;
@@ -759,7 +746,7 @@ main .myStory .myStory_wrapper .container .myStory_content button {
   margin-top: 42px;
   margin-bottom: 30px;
   background: #FFFFFF;
-  border: 1px solid #49A069;
+  border: 1px solid #247849;
   border-radius: 100px;
   font-family: "Gotham Pro", sans-serif;
   font-style: normal;
@@ -768,7 +755,7 @@ main .myStory .myStory_wrapper .container .myStory_content button {
   line-height: 160%;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #49A069;
+  color: #247849;
 }
 main .myStory .myStory_wrapper .container .myStory_content button:hover {
   cursor: pointer;
@@ -806,7 +793,7 @@ main .ourFarm .container .ourFarm_flexWrapper .sliderWrapp .farm-carousel__btn {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  border: 1px solid #49A069;
+  border: 1px solid #247849;
   background: #FFFFFF;
   color: #262728;
   font-size: 22px;
@@ -877,20 +864,16 @@ main .ourFarm .container .ourFarmContact a {
   background: url("../img/Vectorgrenphone.png") no-repeat left;
 }
 main .ourFarm .container .slider {
-  container-type: inline-size;
-  container-name: farm-carousel;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   width: 800px;
   max-width: 100%;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  scrollbar-width: thin;
 }
 main .ourFarm .container .slider::-webkit-scrollbar {
-  display: none;
-  height: 0;
+  height: 8px;
 }
 main .ourFarm .container .farm-carousel__track {
   display: flex;
@@ -901,11 +884,9 @@ main .ourFarm .container .farm-carousel__track {
   min-width: 100%;
 }
 main .ourFarm .container .farm-carousel__slide {
-  flex: 0 0 100cqi;
-  min-width: 100cqi;
-  max-width: 100cqi;
+  flex: 0 0 100%;
+  min-width: 100%;
   scroll-snap-align: start;
-  scroll-snap-stop: always;
   box-sizing: border-box;
 }
 main .ourFarm .container .farm-carousel__slide img {
